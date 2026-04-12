@@ -1,7 +1,7 @@
 {
-  "crawled_at": "2026-04-12T14:20:56.648305+00:00",
-  "total": 4,
-  "succeeded": 3,
+  "crawled_at": "2026-04-12T15:56:51.349026+00:00",
+  "total": 5,
+  "succeeded": 4,
   "failed": 1,
   "fdps": [
     {
@@ -16,7 +16,7 @@
         "errors": 0,
         "skipped": 0
       },
-      "elapsed_s": 1.31
+      "elapsed_s": 1.0
     },
     {
       "url": "https://fdp.wikipathways.org/index.ttl",
@@ -30,7 +30,7 @@
         "errors": 0,
         "skipped": 0
       },
-      "elapsed_s": 0.35
+      "elapsed_s": 0.45
     },
     {
       "url": "https://fdp.dcc.sib.swiss",
@@ -44,7 +44,21 @@
         "errors": 0,
         "skipped": 0
       },
-      "elapsed_s": 81.52
+      "elapsed_s": 83.23
+    },
+    {
+      "url": "http://fairdatapointorphanet.info:7070",
+      "label": "Orphanet \u2014 Patient Registries & Biobanks + ORPHADATA",
+      "status": "ok",
+      "stats": {
+        "root": "http://fairdatapointorphanet.info:7070",
+        "resources": 199,
+        "catalogs": 2,
+        "datasets": 0,
+        "errors": 1,
+        "skipped": 1798
+      },
+      "elapsed_s": 49.69
     },
     {
       "url": "https://rajaramzfdp.fdpcloud.org/fdp-content/repository",
@@ -58,7 +72,7 @@
         "errors": 1,
         "skipped": 0
       },
-      "elapsed_s": 0.5
+      "elapsed_s": 0.77
     }
   ]
 }
