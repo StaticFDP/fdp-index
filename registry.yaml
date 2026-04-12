@@ -6,15 +6,33 @@
 #   label:   human-readable name (optional, discovered from metadata if absent)
 #   added:   ISO 8601 date first registered
 #   contact: maintainer (optional)
+#   notes:   any known quirks for the crawler (optional)
 #
-# NOTE: only add URLs that are actually deployed and reachable.
-# Entries for FDPs not yet deployed on fdpCloud will cause crawl errors.
-# Use workflow_dispatch ("Run workflow") to test a new entry manually before
-# committing it here.
+# Only add URLs that are actually deployed and reachable.
+# Use workflow_dispatch ("Run workflow") to test a new entry manually.
 
 fdps:
 
-  # ── Live FDPs on fdpcloud.org ──────────────────────────────────────────────
+  # ── Live FDPs — confirmed reachable ───────────────────────────────────────
+
+  - url:     https://fdp.duchennedatafoundation.org
+    label:   "Duchenne FAIR Data Point"
+    added:   "2026-04-16"
+    contact: ""
+
+  - url:     https://fdp.wikipathways.org/index.ttl
+    label:   "WikiPathways FAIR Data Point"
+    added:   "2026-04-16"
+    contact: ""
+
+  - url:     https://fdp.dcc.sib.swiss
+    label:   "SPHN FAIR Data Point (SIB Swiss)"
+    added:   "2026-04-16"
+    contact: "fair-data-team@sib.swiss"
+    notes:   >
+      Internal IRIs use http:// while the server is https://.
+      Label/description extraction falls back to URL string — data is complete.
+      Has 15 catalogs; ensure MAX_HOPS is set high enough.
 
   - url:     https://rajaramzfdp.fdpcloud.org/fdp-content/repository
     label:   "rajaramz-fdp demo"

@@ -33,7 +33,7 @@ SCHEMA = Namespace("https://schema.org/")
 
 # ── Config ────────────────────────────────────────────────────────────────────
 TIMEOUT   = 20      # seconds per HTTP request
-MAX_HOPS  = 50      # max resources to follow per FDP (circuit breaker)
+MAX_HOPS  = 200     # max resources to follow per FDP (SIB Swiss has 15 catalogs alone)
 OUTPUT    = Path("output")
 
 ACCEPT = "text/turtle;q=1.0, application/ld+json;q=0.8, application/rdf+xml;q=0.5"
@@ -147,19 +147,32 @@ def crawl_fdp(root_url: str) -> tuple[Graph, dict]:
     return combined, stats
 
 
+def _candidate_subjects(root_url: str):
+    """
+    Yield URIRef variants to try when looking up the root resource.
+    Handles the common case where an FDP is served over https:// but its
+    own internal IRIs use http:// (e.g. fdp.dcc.sib.swiss).
+    """
+    yield URIRef(root_url)
+    if root_url.startswith("https://"):
+        yield URIRef("http://" + root_url[8:])
+    elif root_url.startswith("http://"):
+        yield URIRef("https://" + root_url[7:])
+
+
 def extract_label(g: Graph, root_url: str) -> str:
     """Pull dcterms:title or rdfs:label from the root resource."""
-    subject = URIRef(root_url)
-    for pred in [DCTERMS.title, RDFS.label]:
-        for _, _, obj in g.triples((subject, pred, None)):
-            return str(obj)
-    return root_url
+    for subject in _candidate_subjects(root_url):
+        for pred in [DCTERMS.title, RDFS.label]:
+            for _, _, obj in g.triples((subject, pred, None)):
+                return str(obj)
+    return ""
 
 
 def extract_description(g: Graph, root_url: str) -> str:
-    subject = URIRef(root_url)
-    for _, _, obj in g.triples((subject, DCTERMS.description, None)):
-        return str(obj)
+    for subject in _candidate_subjects(root_url):
+        for _, _, obj in g.triples((subject, DCTERMS.description, None)):
+            return str(obj)
     return ""
 
 
