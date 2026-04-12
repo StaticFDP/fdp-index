@@ -144,7 +144,22 @@ jobs:
           git diff --staged --quiet || git commit -m "$MSG"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} gh-pages
 
-      # ── 9. Summary ───────────────────────────────────────────────────────────
+      # ── 9. Enable GitHub Pages (idempotent — safe to call on every run) ──────
+      # The Pages API call fails silently if Pages is already configured,
+      # so this is safe to run on every crawl. No manual Settings step needed.
+      - name: Enable GitHub Pages on gh-pages branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api repos/${{ github.repository }}/pages \
+            --method POST \
+            -f "source[branch]=gh-pages" \
+            -f "source[path]=/" \
+            2>/dev/null \
+            && echo "✓ GitHub Pages enabled on gh-pages branch" \
+            || echo "ℹ GitHub Pages already configured (safe to ignore)"
+
+      # ── 10. Summary ──────────────────────────────────────────────────────────
       - name: Print crawl report
         if: always()
         run: |
