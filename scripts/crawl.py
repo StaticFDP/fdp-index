@@ -171,7 +171,7 @@ def build_index(crawl_results: list[dict]) -> Graph:
     Each FDP becomes a dcat:DataService entry in the index.
     """
     g   = Graph()
-    now = Literal(datetime.datetime.utcnow().isoformat() + "Z", datatype=XSD.dateTime)
+    now = Literal(datetime.datetime.now(datetime.timezone.utc).isoformat(), datatype=XSD.dateTime)
 
     for prefix, ns in [
         ("dcat",    DCAT),   ("dcterms", DCTERMS), ("fdp-o", FDPO),
@@ -236,7 +236,7 @@ def main():
 
     crawl_results = []
     report        = {
-        "crawled_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "crawled_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "total":      len(fdps),
         "succeeded":  0,
         "failed":     0,
@@ -249,9 +249,9 @@ def main():
         print(f"┌ {label}")
         print(f"│ {root_url}")
 
-        start   = datetime.datetime.utcnow()
+        start   = datetime.datetime.now(datetime.timezone.utc)
         g, stats = crawl_fdp(root_url)
-        elapsed = (datetime.datetime.utcnow() - start).total_seconds()
+        elapsed = (datetime.datetime.now(datetime.timezone.utc) - start).total_seconds()
 
         result_label = extract_label(g, root_url) or label
         ok = stats["resources"] > 0
@@ -306,8 +306,15 @@ def main():
     print(f"\n✓ Done — {report['succeeded']}/{report['total']} FDPs indexed")
     print(f"  Outputs written to {OUTPUT.resolve()}/")
 
-    # Exit non-zero if everything failed (lets GitHub Actions flag the run)
-    if report["succeeded"] == 0:
+    if report["failed"] > 0:
+        print(f"\n⚠  {report['failed']} FDP(s) were unreachable — check registry.yaml URLs", file=sys.stderr)
+
+    # Exit non-zero only when every single registered FDP failed AND the
+    # registry is non-empty — that signals a systematic problem (e.g. wrong
+    # URLs in registry.yaml, network issue in the runner) rather than a
+    # handful of temporarily-down endpoints.
+    if report["total"] > 0 and report["succeeded"] == 0:
+        print("✗  No FDPs could be crawled — marking run as failed.", file=sys.stderr)
         sys.exit(1)
 
 

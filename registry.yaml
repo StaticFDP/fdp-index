@@ -1,24 +1,36 @@
 # FDP Registry
 # One entry per FAIR Data Point root resource.
+#
 # Fields:
-#   url:        FDP root URL (required)
-#   label:      human-readable name (optional — discovered from metadata if absent)
-#   added:      ISO 8601 date added to registry
-#   contact:    maintainer (optional)
+#   url:     FDP root URL — must be reachable over HTTPS (required)
+#   label:   human-readable name (optional, discovered from metadata if absent)
+#   added:   ISO 8601 date first registered
+#   contact: maintainer (optional)
+#
+# NOTE: only add URLs that are actually deployed and reachable.
+# Entries for FDPs not yet deployed on fdpCloud will cause crawl errors.
+# Use workflow_dispatch ("Run workflow") to test a new entry manually before
+# committing it here.
 
 fdps:
 
-  - url:     https://ga4gh-rare-disease.fdpcloud.org/repository
-    label:   "GA4GH Rare Disease Trajectories"
-    added:   "2026-04-16"
-    contact: "andra@example.org"
+  # ── Live FDPs on fdpcloud.org ──────────────────────────────────────────────
 
-  - url:     https://rajaramz.fdpcloud.org/fdp-content/repository
+  - url:     https://rajaramzfdp.fdpcloud.org/fdp-content/repository
     label:   "rajaramz-fdp demo"
     added:   "2026-04-16"
     contact: ""
 
-  - url:     https://leiden-longevity.fdpcloud.org/FairDataPoint.ttl
-    label:   "Leiden Longevity Study"
-    added:   "2026-04-16"
-    contact: ""
+  # ── Pending deployment on fdpCloud ────────────────────────────────────────
+  # Uncomment each entry once the corresponding repo has been registered
+  # with fdpCloud and the subdomain is live.
+
+  # - url:     https://ga4gh-rare-disease.fdpcloud.org/repository
+  #   label:   "GA4GH Rare Disease Trajectories"
+  #   added:   "2026-04-16"
+  #   contact: "andra@example.org"
+
+  # - url:     https://leiden-longevity.fdpcloud.org/FairDataPoint.ttl
+  #   label:   "Leiden Longevity Study"
+  #   added:   "2026-04-16"
+  #   contact: ""
