@@ -1,0 +1,64 @@
+{
+  "crawled_at": "2026-04-12T14:20:56.648305+00:00",
+  "total": 4,
+  "succeeded": 3,
+  "failed": 1,
+  "fdps": [
+    {
+      "url": "https://fdp.duchennedatafoundation.org",
+      "label": "Duchenne FAIR Data Point",
+      "status": "ok",
+      "stats": {
+        "root": "https://fdp.duchennedatafoundation.org",
+        "resources": 4,
+        "catalogs": 1,
+        "datasets": 2,
+        "errors": 0,
+        "skipped": 0
+      },
+      "elapsed_s": 1.31
+    },
+    {
+      "url": "https://fdp.wikipathways.org/index.ttl",
+      "label": "WikiPathways FAIR Data Point",
+      "status": "ok",
+      "stats": {
+        "root": "https://fdp.wikipathways.org/index.ttl",
+        "resources": 7,
+        "catalogs": 2,
+        "datasets": 3,
+        "errors": 0,
+        "skipped": 0
+      },
+      "elapsed_s": 0.35
+    },
+    {
+      "url": "https://fdp.dcc.sib.swiss",
+      "label": "SPHN FAIR Data Point",
+      "status": "ok",
+      "stats": {
+        "root": "https://fdp.dcc.sib.swiss",
+        "resources": 131,
+        "catalogs": 15,
+        "datasets": 30,
+        "errors": 0,
+        "skipped": 0
+      },
+      "elapsed_s": 81.52
+    },
+    {
+      "url": "https://rajaramzfdp.fdpcloud.org/fdp-content/repository",
+      "label": "rajaramz-fdp demo",
+      "status": "error",
+      "stats": {
+        "root": "https://rajaramzfdp.fdpcloud.org/fdp-content/repository",
+        "resources": 0,
+        "catalogs": 0,
+        "datasets": 0,
+        "errors": 1,
+        "skipped": 0
+      },
+      "elapsed_s": 0.5
+    }
+  ]
+}
