@@ -1,0 +1,156 @@
+name: Crawl FDPs
+
+on:
+  # ── Daily at 03:00 UTC ───────────────────────────────────────────────────────
+  schedule:
+    - cron: '0 3 * * *'
+
+  # ── Manual trigger from Actions tab ─────────────────────────────────────────
+  workflow_dispatch:
+    inputs:
+      single_url:
+        description: 'Crawl only this FDP root URL (leave blank for full crawl)'
+        required: false
+        default: ''
+
+  # ── Triggered by FDP repos pinging the index ─────────────────────────────────
+  # Payload: {"event_type": "fdp-ping", "client_payload": {"url": "https://..."}}
+  repository_dispatch:
+    types: [fdp-ping]
+
+permissions:
+  contents: write    # needed to commit crawl results to gh-pages
+  pages:    write
+  id-token: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+
+      # ── 1. Checkout main (registry + scripts) ───────────────────────────────
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main
+
+      # ── 2. Auto-register URL from dispatch payload (if new) ─────────────────
+      - name: Register new FDP from ping (if not already in registry)
+        if: github.event_name == 'repository_dispatch'
+        working-directory: main
+        env:
+          PING_URL: ${{ github.event.client_payload.url }}
+        run: |
+          python3 - <<'EOF'
+          import os, yaml
+          from pathlib import Path
+
+          reg_path = Path("registry.yaml")
+          registry = yaml.safe_load(reg_path.read_text())
+          existing = {e["url"] for e in registry.get("fdps", [])}
+          new_url  = os.environ["PING_URL"].strip()
+
+          if new_url and new_url not in existing:
+              import datetime
+              registry.setdefault("fdps", []).append({
+                  "url":   new_url,
+                  "label": "",
+                  "added": datetime.date.today().isoformat(),
+              })
+              reg_path.write_text(yaml.dump(registry, allow_unicode=True, sort_keys=False))
+              print(f"Added new FDP: {new_url}")
+          else:
+              print(f"Already registered (or empty URL): {new_url}")
+          EOF
+
+          git -C . config user.name  "github-actions[bot]"
+          git -C . config user.email "github-actions[bot]@users.noreply.github.com"
+          git -C . diff --quiet registry.yaml || \
+            git -C . commit -am "registry: auto-register ${{ github.event.client_payload.url }}"
+          git -C . push
+
+      # ── 3. Checkout (or create) gh-pages ────────────────────────────────────
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+        continue-on-error: true   # branch may not exist yet on first run
+
+      - name: Initialise gh-pages if branch is new
+        run: |
+          if [ ! -d gh-pages/.git ]; then
+            mkdir -p gh-pages
+            cd gh-pages
+            git init
+            git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+            git checkout -b gh-pages
+          fi
+
+      # ── 4. Install dependencies ──────────────────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: main/scripts/requirements.txt
+
+      - name: Install Python dependencies
+        run: pip install -r main/scripts/requirements.txt
+
+      # ── 5. Run crawler ───────────────────────────────────────────────────────
+      - name: Crawl all registered FDPs
+        working-directory: main
+        env:
+          SINGLE_URL: ${{ github.event.inputs.single_url }}
+        run: |
+          python3 scripts/crawl.py
+
+      # ── 6. Generate HTML index page ──────────────────────────────────────────
+      - name: Generate HTML index
+        working-directory: main
+        run: python3 scripts/generate_html.py
+
+      # ── 7. Copy output → gh-pages working tree ───────────────────────────────
+      - name: Sync output to gh-pages
+        run: |
+          # Keep CNAME and .nojekyll if they exist
+          cp gh-pages/CNAME main/output/CNAME 2>/dev/null || true
+          touch main/output/.nojekyll
+
+          # Wipe old content (except git internals) and replace with fresh output
+          find gh-pages -mindepth 1 -not -path 'gh-pages/.git*' -delete
+          cp -r main/output/. gh-pages/
+
+      # ── 8. Commit and push gh-pages ──────────────────────────────────────────
+      - name: Commit crawl results to gh-pages
+        working-directory: gh-pages
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+          TRIGGER="${{ github.event_name }}"
+          if [ "$TRIGGER" = "repository_dispatch" ]; then
+            MSG="crawl: triggered by ping from ${{ github.event.client_payload.url }} (${TIMESTAMP})"
+          elif [ "$TRIGGER" = "workflow_dispatch" ]; then
+            MSG="crawl: manual run (${TIMESTAMP})"
+          else
+            MSG="crawl: scheduled daily run (${TIMESTAMP})"
+          fi
+
+          git diff --staged --quiet || git commit -m "$MSG"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} gh-pages
+
+      # ── 9. Summary ───────────────────────────────────────────────────────────
+      - name: Print crawl report
+        if: always()
+        run: |
+          if [ -f main/output/crawl-report.json ]; then
+            echo "## Crawl report" >> $GITHUB_STEP_SUMMARY
+            echo '```json' >> $GITHUB_STEP_SUMMARY
+            cat main/output/crawl-report.json >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi

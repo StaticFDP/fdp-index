@@ -1,0 +1,24 @@
+# FDP Registry
+# One entry per FAIR Data Point root resource.
+# Fields:
+#   url:        FDP root URL (required)
+#   label:      human-readable name (optional — discovered from metadata if absent)
+#   added:      ISO 8601 date added to registry
+#   contact:    maintainer (optional)
+
+fdps:
+
+  - url:     https://ga4gh-rare-disease.fdpcloud.org/repository
+    label:   "GA4GH Rare Disease Trajectories"
+    added:   "2026-04-16"
+    contact: "andra@example.org"
+
+  - url:     https://rajaramz.fdpcloud.org/fdp-content/repository
+    label:   "rajaramz-fdp demo"
+    added:   "2026-04-16"
+    contact: ""
+
+  - url:     https://leiden-longevity.fdpcloud.org/FairDataPoint.ttl
+    label:   "Leiden Longevity Study"
+    added:   "2026-04-16"
+    contact: ""

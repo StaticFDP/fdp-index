@@ -1,0 +1,6 @@
+rdflib==7.0.0
+requests==2.32.3
+PyYAML==6.0.1
+pyshacl==0.25.0
+PyShEx==0.8.1
+Jinja2==3.1.4
