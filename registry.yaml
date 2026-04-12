@@ -34,6 +34,23 @@ fdps:
       Label/description extraction falls back to URL string — data is complete.
       Has 15 catalogs; ensure MAX_HOPS is set high enough.
 
+  - url:     http://fairdatapointorphanet.info:7070
+    label:   "Orphanet — Patient Registries & Biobanks + ORPHADATA"
+    added:   "2026-04-12"
+    contact: "https://www.orpha.net"
+    notes:   >
+      HTTP only, non-standard port 7070. No HTTPS available.
+      Two catalogs:
+        (1) "The Orphanet catalogue of registries and biobanks" — 4000+ patient
+            registry resources typed as ejp-rd:PatientRegistry, each carrying a
+            dcat:theme ORDO IRI (e.g. Orphanet_92 for JIA). Also contains biobanks.
+        (2) "ORPHADATA" — Orphanet's machine-readable knowledge-base exports
+            (rare disease nomenclature, epidemiology, gene–disease associations,
+            phenotypes, natural history). License CC BY 4.0.
+      Uses EJP-RD vocabulary (personalData, vpConnection=VPDiscoverable).
+      Crawler must follow http:// IRIs and handle non-standard port.
+      MAX_HOPS should be set high (catalog alone has 4000+ member resources).
+
   - url:     https://rajaramzfdp.fdpcloud.org/fdp-content/repository
     label:   "rajaramz-fdp demo"
     added:   "2026-04-16"
