@@ -51,6 +51,20 @@ fdps:
       Crawler must follow http:// IRIs and handle non-standard port.
       MAX_HOPS should be set high (catalog alone has 4000+ member resources).
 
+  - url:     https://dpp.worldduchenne.org
+    label:   "Duchenne Parent Project — FAIR Data Point"
+    added:   "2026-04-12"
+    contact: "https://www.worldduchenne.org/"
+    notes:   >
+      FDP v1.17.1; canonical w3id IRI is https://w3id.org/duchenne-fdp but
+      the actual server is dpp.worldduchenne.org (use this URL for crawling).
+      Themes: ordo:Orphanet_98895 (DMD) and ordo:Orphanet_98896 (Becker MD).
+      Uses EJP-RD vocabulary (personalData, vpConnection=VPDiscoverable).
+      License: CC-BY-NC-ND 3.0 (root), EJP-RD license (catalog).
+      One catalog ("Duchenne Data Platform Catalog") published by
+      FAIR Data Systems S.L. on behalf of Duchenne Parent Project.
+      Conceptual metadata only — for data access contact the publisher.
+
   - url:     https://rajaramzfdp.fdpcloud.org/fdp-content/repository
     label:   "rajaramz-fdp demo"
     added:   "2026-04-16"
