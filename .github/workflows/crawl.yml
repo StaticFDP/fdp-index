@@ -83,7 +83,7 @@ jobs:
           if [ ! -d gh-pages/.git ]; then
             mkdir -p gh-pages
             cd gh-pages
-            git init -b gh-pages
+            git init
             git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           fi
 
@@ -141,7 +141,7 @@ jobs:
           fi
 
           git diff --staged --quiet || git commit -m "$MSG"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} gh-pages
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:gh-pages
 
       # ── 9. Enable GitHub Pages (idempotent — safe to call on every run) ──────
       # The Pages API call fails silently if Pages is already configured,
