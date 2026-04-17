@@ -1,5 +1,69 @@
 [
   {
+    "@id": "https://fdp.duchennedatafoundation.org",
+    "@type": [
+      "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
+      "http://www.w3.org/ns/dcat#DataService"
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-04-17T05:22:32.755231+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "Duchenne FAIR Data Point"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#endpointURL": [
+      {
+        "@id": "https://fdp.duchennedatafoundation.org"
+      }
+    ],
+    "https://schema.org/numberOfItems": [
+      {
+        "@value": 1
+      }
+    ]
+  },
+  {
+    "@id": "https://fdp.dcc.sib.swiss",
+    "@type": [
+      "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
+      "http://www.w3.org/ns/dcat#DataService"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "The SPHN Metadata Catalog provides an overview of health research datasets available in Switzerland. It describes standardized metadata of each dataset, including the scope of the data, creation date, and access conditions. While the underlying data come from diverse sources and domains, the metadata comply with the HealthDCAT-AP (https://healthdataeu.pages.code.europa.eu/healthdcat-ap/releases/release-6) standard of the European Health Data Space (EHDS). To make your data findable in the catalog, write an email to: fair-data-team@sib.swiss"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-04-17T05:22:32.755231+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "SPHN FAIR Data Point"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#endpointURL": [
+      {
+        "@id": "https://fdp.dcc.sib.swiss"
+      }
+    ],
+    "https://schema.org/numberOfItems": [
+      {
+        "@value": 15
+      }
+    ]
+  },
+  {
     "@id": "https://fdp.wikipathways.org/index.ttl",
     "@type": [
       "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
@@ -14,7 +78,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-16T05:25:13.684391+00:00"
+        "@value": "2026-04-17T05:22:32.755231+00:00"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -31,6 +95,64 @@
     "https://schema.org/numberOfItems": [
       {
         "@value": 2
+      }
+    ]
+  },
+  {
+    "@id": "http://fairdatapointorphanet.info:7070",
+    "@type": [
+      "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
+      "http://www.w3.org/ns/dcat#DataService"
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-04-17T05:22:32.755231+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/dcat#endpointURL": [
+      {
+        "@id": "http://fairdatapointorphanet.info:7070"
+      }
+    ],
+    "https://schema.org/numberOfItems": [
+      {
+        "@value": 2
+      }
+    ]
+  },
+  {
+    "@id": "https://dpp.worldduchenne.org",
+    "@type": [
+      "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
+      "http://www.w3.org/ns/dcat#DataService"
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-04-17T05:22:32.755231+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/dcat#endpointURL": [
+      {
+        "@id": "https://dpp.worldduchenne.org"
+      }
+    ],
+    "https://schema.org/numberOfItems": [
+      {
+        "@value": 1
       }
     ]
   },
@@ -53,7 +175,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-16T05:25:13.684391+00:00"
+        "@value": "2026-04-17T05:22:32.755231+00:00"
       }
     ],
     "http://purl.org/dc/terms/publisher": [
@@ -82,128 +204,6 @@
       },
       {
         "@id": "https://dpp.worldduchenne.org"
-      }
-    ]
-  },
-  {
-    "@id": "https://fdp.dcc.sib.swiss",
-    "@type": [
-      "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
-      "http://www.w3.org/ns/dcat#DataService"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "The SPHN Metadata Catalog provides an overview of health research datasets available in Switzerland. It describes standardized metadata of each dataset, including the scope of the data, creation date, and access conditions. While the underlying data come from diverse sources and domains, the metadata comply with the HealthDCAT-AP (https://healthdataeu.pages.code.europa.eu/healthdcat-ap/releases/release-6) standard of the European Health Data Space (EHDS). To make your data findable in the catalog, write an email to: fair-data-team@sib.swiss"
-      }
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-16T05:25:13.684391+00:00"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "en",
-        "@value": "SPHN FAIR Data Point"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#endpointURL": [
-      {
-        "@id": "https://fdp.dcc.sib.swiss"
-      }
-    ],
-    "https://schema.org/numberOfItems": [
-      {
-        "@value": 15
-      }
-    ]
-  },
-  {
-    "@id": "https://fdp.duchennedatafoundation.org",
-    "@type": [
-      "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
-      "http://www.w3.org/ns/dcat#DataService"
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-16T05:25:13.684391+00:00"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "en",
-        "@value": "Duchenne FAIR Data Point"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#endpointURL": [
-      {
-        "@id": "https://fdp.duchennedatafoundation.org"
-      }
-    ],
-    "https://schema.org/numberOfItems": [
-      {
-        "@value": 1
-      }
-    ]
-  },
-  {
-    "@id": "https://dpp.worldduchenne.org",
-    "@type": [
-      "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
-      "http://www.w3.org/ns/dcat#DataService"
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-16T05:25:13.684391+00:00"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/ns/dcat#endpointURL": [
-      {
-        "@id": "https://dpp.worldduchenne.org"
-      }
-    ],
-    "https://schema.org/numberOfItems": [
-      {
-        "@value": 1
-      }
-    ]
-  },
-  {
-    "@id": "http://fairdatapointorphanet.info:7070",
-    "@type": [
-      "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
-      "http://www.w3.org/ns/dcat#DataService"
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-16T05:25:13.684391+00:00"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/ns/dcat#endpointURL": [
-      {
-        "@id": "http://fairdatapointorphanet.info:7070"
-      }
-    ],
-    "https://schema.org/numberOfItems": [
-      {
-        "@value": 2
       }
     ]
   }

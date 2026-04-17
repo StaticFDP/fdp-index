@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-04-16T05:22:31.984733+00:00",
+  "crawled_at": "2026-04-17T05:20:03.933562+00:00",
   "total": 6,
   "succeeded": 5,
   "failed": 1,
@@ -16,7 +16,7 @@
         "errors": 0,
         "skipped": 0
       },
-      "elapsed_s": 1.64
+      "elapsed_s": 1.18
     },
     {
       "url": "https://fdp.wikipathways.org/index.ttl",
@@ -30,7 +30,7 @@
         "errors": 0,
         "skipped": 0
       },
-      "elapsed_s": 0.54
+      "elapsed_s": 0.49
     },
     {
       "url": "https://fdp.dcc.sib.swiss",
@@ -44,7 +44,7 @@
         "errors": 0,
         "skipped": 0
       },
-      "elapsed_s": 93.31
+      "elapsed_s": 83.98
     },
     {
       "url": "http://fairdatapointorphanet.info:7070",
@@ -58,7 +58,7 @@
         "errors": 1,
         "skipped": 1798
       },
-      "elapsed_s": 52.61
+      "elapsed_s": 48.93
     },
     {
       "url": "https://dpp.worldduchenne.org",
@@ -72,7 +72,7 @@
         "errors": 4,
         "skipped": 0
       },
-      "elapsed_s": 9.77
+      "elapsed_s": 10.54
     },
     {
       "url": "https://rajaramzfdp.fdpcloud.org/fdp-content/repository",
@@ -86,7 +86,7 @@
         "errors": 1,
         "skipped": 0
       },
-      "elapsed_s": 0.5
+      "elapsed_s": 0.4
     }
   ]
 }
