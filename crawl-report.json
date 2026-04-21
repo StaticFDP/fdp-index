@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-04-20T05:31:40.382272+00:00",
+  "crawled_at": "2026-04-21T05:19:04.975755+00:00",
   "total": 6,
   "succeeded": 5,
   "failed": 1,
@@ -16,7 +16,7 @@
         "errors": 0,
         "skipped": 0
       },
-      "elapsed_s": 1.6
+      "elapsed_s": 1.33
     },
     {
       "url": "https://fdp.wikipathways.org/index.ttl",
@@ -30,7 +30,7 @@
         "errors": 0,
         "skipped": 0
       },
-      "elapsed_s": 0.55
+      "elapsed_s": 0.5
     },
     {
       "url": "https://fdp.dcc.sib.swiss",
@@ -38,13 +38,13 @@
       "status": "ok",
       "stats": {
         "root": "https://fdp.dcc.sib.swiss",
-        "resources": 131,
-        "catalogs": 15,
-        "datasets": 30,
+        "resources": 187,
+        "catalogs": 18,
+        "datasets": 45,
         "errors": 0,
         "skipped": 0
       },
-      "elapsed_s": 92.4
+      "elapsed_s": 134.51
     },
     {
       "url": "http://fairdatapointorphanet.info:7070",
@@ -58,7 +58,7 @@
         "errors": 1,
         "skipped": 1798
       },
-      "elapsed_s": 51.83
+      "elapsed_s": 51.85
     },
     {
       "url": "https://dpp.worldduchenne.org",
@@ -72,7 +72,7 @@
         "errors": 4,
         "skipped": 0
       },
-      "elapsed_s": 6.81
+      "elapsed_s": 7.79
     },
     {
       "url": "https://rajaramzfdp.fdpcloud.org/fdp-content/repository",
@@ -86,7 +86,7 @@
         "errors": 1,
         "skipped": 0
       },
-      "elapsed_s": 0.48
+      "elapsed_s": 0.44
     }
   ]
 }
