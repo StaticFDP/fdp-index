@@ -1,5 +1,56 @@
 [
   {
+    "@id": "https://staticfdp.github.io/fdp-index/",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Daily-crawled index of FAIR Data Points hosted via StaticFDP / fdpCloud."
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-04-29T05:48:33.860317+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://github.com/StaticFDP"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "StaticFDP Index"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#dataset": [
+      {
+        "@id": "https://fdp.duchennedatafoundation.org"
+      },
+      {
+        "@id": "https://fdp.wikipathways.org/index.ttl"
+      },
+      {
+        "@id": "https://fdp.dcc.sib.swiss"
+      },
+      {
+        "@id": "http://fairdatapointorphanet.info:7070"
+      },
+      {
+        "@id": "https://dpp.worldduchenne.org"
+      }
+    ]
+  },
+  {
     "@id": "http://fairdatapointorphanet.info:7070",
     "@type": [
       "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
@@ -8,7 +59,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-28T05:53:12.518389+00:00"
+        "@value": "2026-04-29T05:48:33.860317+00:00"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -43,7 +94,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-28T05:53:12.518389+00:00"
+        "@value": "2026-04-29T05:48:33.860317+00:00"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -72,7 +123,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-28T05:53:12.518389+00:00"
+        "@value": "2026-04-29T05:48:33.860317+00:00"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -101,7 +152,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-28T05:53:12.518389+00:00"
+        "@value": "2026-04-29T05:48:33.860317+00:00"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -122,57 +173,6 @@
     ]
   },
   {
-    "@id": "https://staticfdp.github.io/fdp-index/",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Daily-crawled index of FAIR Data Points hosted via StaticFDP / fdpCloud."
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-28T05:53:12.518389+00:00"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://github.com/StaticFDP"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "en",
-        "@value": "StaticFDP Index"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#dataset": [
-      {
-        "@id": "https://fdp.duchennedatafoundation.org"
-      },
-      {
-        "@id": "https://fdp.wikipathways.org/index.ttl"
-      },
-      {
-        "@id": "https://fdp.dcc.sib.swiss"
-      },
-      {
-        "@id": "http://fairdatapointorphanet.info:7070"
-      },
-      {
-        "@id": "https://dpp.worldduchenne.org"
-      }
-    ]
-  },
-  {
     "@id": "https://fdp.dcc.sib.swiss",
     "@type": [
       "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
@@ -187,7 +187,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-28T05:53:12.518389+00:00"
+        "@value": "2026-04-29T05:48:33.860317+00:00"
       }
     ],
     "http://purl.org/dc/terms/title": [
