@@ -18,7 +18,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-29T05:48:33.860317+00:00"
+        "@value": "2026-04-30T05:52:02.070164+00:00"
       }
     ],
     "http://purl.org/dc/terms/publisher": [
@@ -59,7 +59,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-29T05:48:33.860317+00:00"
+        "@value": "2026-04-30T05:52:02.070164+00:00"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -94,7 +94,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-29T05:48:33.860317+00:00"
+        "@value": "2026-04-30T05:52:02.070164+00:00"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -115,35 +115,6 @@
     ]
   },
   {
-    "@id": "https://dpp.worldduchenne.org",
-    "@type": [
-      "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
-      "http://www.w3.org/ns/dcat#DataService"
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-29T05:48:33.860317+00:00"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/ns/dcat#endpointURL": [
-      {
-        "@id": "https://dpp.worldduchenne.org"
-      }
-    ],
-    "https://schema.org/numberOfItems": [
-      {
-        "@value": 1
-      }
-    ]
-  },
-  {
     "@id": "https://fdp.duchennedatafoundation.org",
     "@type": [
       "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
@@ -152,7 +123,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-29T05:48:33.860317+00:00"
+        "@value": "2026-04-30T05:52:02.070164+00:00"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -187,7 +158,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-04-29T05:48:33.860317+00:00"
+        "@value": "2026-04-30T05:52:02.070164+00:00"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -204,6 +175,35 @@
     "https://schema.org/numberOfItems": [
       {
         "@value": 18
+      }
+    ]
+  },
+  {
+    "@id": "https://dpp.worldduchenne.org",
+    "@type": [
+      "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
+      "http://www.w3.org/ns/dcat#DataService"
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-04-30T05:52:02.070164+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/ns/dcat#endpointURL": [
+      {
+        "@id": "https://dpp.worldduchenne.org"
+      }
+    ],
+    "https://schema.org/numberOfItems": [
+      {
+        "@value": 1
       }
     ]
   }
