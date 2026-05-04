@@ -5,9 +5,9 @@
 @prefix ldp: <http://www.w3.org/ns/ldp#> .
 @prefix ns1: <https://biomedit.ch/rdf/sphn-metacat/sphn/> .
 @prefix ns2: <http://semanticscience.org/resource/> .
-@prefix ns3: <http://healthdataportal.eu/ns/health#> .
+@prefix ns3: <http://www.w3.org/2006/vcard/ns#> .
 @prefix ns4: <http://data.europa.eu/r5r/> .
-@prefix ns5: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns5: <http://healthdataportal.eu/ns/health#> .
 @prefix ns6: <http://www.geneontology.org/formats/oboInOwl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -2241,255 +2241,255 @@
 
 <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DPIH> rdfs:label "data on pathogens that impact human health" .
 
-<https://biomedit.ch/rdf/sphn-resource/0a06851e-f2bb-4408-aef2-3089c20e01c5> a ns5:Individual ;
-    ns5:hasEmail "Olivier.Michielin@hug.ch" .
+<https://biomedit.ch/rdf/sphn-resource/0a06851e-f2bb-4408-aef2-3089c20e01c5> a ns3:Individual ;
+    ns3:hasEmail "Olivier.Michielin@hug.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/0a378e7d-7c5c-4121-8709-4530124b57b8> a ns5:Individual ;
-    ns5:fn "Marie MÃ©an" ;
-    ns5:hasEmail "Marie.Mean@chuv.ch" .
+<https://biomedit.ch/rdf/sphn-resource/0a378e7d-7c5c-4121-8709-4530124b57b8> a ns3:Individual ;
+    ns3:fn "Marie MÃ©an" ;
+    ns3:hasEmail "Marie.Mean@chuv.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/151219e4-d97e-4f51-b9a7-62db24cb8687> a ns5:Individual ;
-    ns5:fn "FabiÃ«n Belle" ;
-    ns5:hasEmail "fabien.belle@unibe.ch" .
+<https://biomedit.ch/rdf/sphn-resource/151219e4-d97e-4f51-b9a7-62db24cb8687> a ns3:Individual ;
+    ns3:fn "FabiÃ«n Belle" ;
+    ns3:hasEmail "fabien.belle@unibe.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/2731040b-1153-42fe-8a6d-4ac4b459b93a> a ns5:Individual ;
-    ns5:fn "Prof. Adrian Egli" ;
-    ns5:hasEmail "aegli@imm.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/2731040b-1153-42fe-8a6d-4ac4b459b93a> a ns3:Individual ;
+    ns3:fn "Prof. Adrian Egli" ;
+    ns3:hasEmail "aegli@imm.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/28829e89-24b0-4f29-8a01-57d8630aed13> a ns5:Individual ;
-    ns5:hasEmail "Olivier.Michielin@hug.ch" .
+<https://biomedit.ch/rdf/sphn-resource/28829e89-24b0-4f29-8a01-57d8630aed13> a ns3:Individual ;
+    ns3:hasEmail "Olivier.Michielin@hug.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/3885f274-6be0-4f10-9f70-4626f197e513> a ns5:Individual ;
-    ns5:fn "FabiÃ«n Belle" ;
-    ns5:hasEmail "fabien.belle@unibe.ch" .
+<https://biomedit.ch/rdf/sphn-resource/3885f274-6be0-4f10-9f70-4626f197e513> a ns3:Individual ;
+    ns3:fn "FabiÃ«n Belle" ;
+    ns3:hasEmail "fabien.belle@unibe.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/3b227bec-9da7-463d-ba22-1d558fb2c512> a ns5:Individual ;
-    ns5:fn "Philipp Latzin" ;
-    ns5:hasEmail "philipp.latzin@insel.ch" .
+<https://biomedit.ch/rdf/sphn-resource/3b227bec-9da7-463d-ba22-1d558fb2c512> a ns3:Individual ;
+    ns3:fn "Philipp Latzin" ;
+    ns3:hasEmail "philipp.latzin@insel.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/4e8af5f7-8107-44e2-8235-d73d835a551c> a ns5:Individual ;
-    ns5:fn "Prof. Luregn Schlapbach" ;
-    ns5:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/4e8af5f7-8107-44e2-8235-d73d835a551c> a ns3:Individual ;
+    ns3:fn "Prof. Luregn Schlapbach" ;
+    ns3:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/625132ff-22bd-48df-a304-05e569b7f4ff> a ns5:Individual ;
-    ns5:fn "Prof. Luregn Schlapbach" ;
-    ns5:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/625132ff-22bd-48df-a304-05e569b7f4ff> a ns3:Individual ;
+    ns3:fn "Prof. Luregn Schlapbach" ;
+    ns3:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/63832e55-cd97-4c8e-b5aa-033ac58a7b3b> a ns5:Individual ;
-    ns5:fn "Prof. Luregn Schlapbach" ;
-    ns5:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/63832e55-cd97-4c8e-b5aa-033ac58a7b3b> a ns3:Individual ;
+    ns3:fn "Prof. Luregn Schlapbach" ;
+    ns3:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/69bb6076-bdd3-40be-8573-0250ef99b5f4> a ns5:Individual ;
-    ns5:fn "Prof. Luregn Schlapbach" ;
-    ns5:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/69bb6076-bdd3-40be-8573-0250ef99b5f4> a ns3:Individual ;
+    ns3:fn "Prof. Luregn Schlapbach" ;
+    ns3:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/807e7f33-fde4-49ff-afdf-f030ff4265c9> a ns5:Individual ;
-    ns5:fn "FabiÃ«n Belle" ;
-    ns5:hasEmail "fabien.belle@unibe.ch" .
+<https://biomedit.ch/rdf/sphn-resource/807e7f33-fde4-49ff-afdf-f030ff4265c9> a ns3:Individual ;
+    ns3:fn "FabiÃ«n Belle" ;
+    ns3:hasEmail "fabien.belle@unibe.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/8a1ee832-dee1-4983-925b-db743192cd7a> a ns5:Individual ;
-    ns5:hasEmail "Olivier.Michielin@hug.ch" .
+<https://biomedit.ch/rdf/sphn-resource/8a1ee832-dee1-4983-925b-db743192cd7a> a ns3:Individual ;
+    ns3:hasEmail "Olivier.Michielin@hug.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/8f8dd47e-5dc3-45ef-a44d-cb7298bc1fe6> a ns5:Individual ;
-    ns5:fn "Marie MÃ©an" ;
-    ns5:hasEmail "Marie.Mean@chuv.ch" .
+<https://biomedit.ch/rdf/sphn-resource/8f8dd47e-5dc3-45ef-a44d-cb7298bc1fe6> a ns3:Individual ;
+    ns3:fn "Marie MÃ©an" ;
+    ns3:hasEmail "Marie.Mean@chuv.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/902f7c77-7e77-41c3-b1d4-046ab1b37681> a ns5:Individual ;
-    ns5:fn "Prof. Luregn Schlapbach" ;
-    ns5:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/902f7c77-7e77-41c3-b1d4-046ab1b37681> a ns3:Individual ;
+    ns3:fn "Prof. Luregn Schlapbach" ;
+    ns3:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/9f697ec3-3cab-45fc-b75e-3e6d0e817c60> a ns5:Individual ;
-    ns5:fn "Prof. Adrian Egli" ;
-    ns5:hasEmail "aegli@imm.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/9f697ec3-3cab-45fc-b75e-3e6d0e817c60> a ns3:Individual ;
+    ns3:fn "Prof. Adrian Egli" ;
+    ns3:hasEmail "aegli@imm.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/a5c07c4e-5296-4cea-9275-b983afb7c9a4> a ns5:Individual ;
-    ns5:fn "Schlapbach Luregn" ;
-    ns5:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/a5c07c4e-5296-4cea-9275-b983afb7c9a4> a ns3:Individual ;
+    ns3:fn "Schlapbach Luregn" ;
+    ns3:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/a7a13885-9698-4d14-8e61-c503f923716c> a ns5:Individual ;
-    ns5:fn "Prof. Luregn Schlapbach" ;
-    ns5:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/a7a13885-9698-4d14-8e61-c503f923716c> a ns3:Individual ;
+    ns3:fn "Prof. Luregn Schlapbach" ;
+    ns3:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/a832631e-f1b7-4340-a198-bc2509bbd9a0> a ns5:Individual ;
-    ns5:fn "FabiÃ«n Belle" ;
-    ns5:hasEmail "fabien.belle@unibe.ch" .
+<https://biomedit.ch/rdf/sphn-resource/a832631e-f1b7-4340-a198-bc2509bbd9a0> a ns3:Individual ;
+    ns3:fn "FabiÃ«n Belle" ;
+    ns3:hasEmail "fabien.belle@unibe.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/a86d3fd4-9740-4a6a-a865-cea1867f2773> a ns5:Individual ;
-    ns5:fn "Prof. Luregn Schlapbach" ;
-    ns5:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/a86d3fd4-9740-4a6a-a865-cea1867f2773> a ns3:Individual ;
+    ns3:fn "Prof. Luregn Schlapbach" ;
+    ns3:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/a9451e23-69c4-40f3-b2ad-07ff33d11a07> a ns5:Individual ;
-    ns5:fn "Prof. Luregn Schlapbach" ;
-    ns5:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/a9451e23-69c4-40f3-b2ad-07ff33d11a07> a ns3:Individual ;
+    ns3:fn "Prof. Luregn Schlapbach" ;
+    ns3:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/b091de06-8ab1-4468-830e-e3e00ba4c3c6> a ns5:Individual ;
-    ns5:fn "FabiÃ«n Belle" ;
-    ns5:hasEmail "fabien.belle@unibe.ch" .
+<https://biomedit.ch/rdf/sphn-resource/b091de06-8ab1-4468-830e-e3e00ba4c3c6> a ns3:Individual ;
+    ns3:fn "FabiÃ«n Belle" ;
+    ns3:hasEmail "fabien.belle@unibe.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/b2347c45-4fbf-4561-a9b4-ceaec3a4b641> a ns5:Individual ;
-    ns5:fn "Schlapbach Luregn" ;
-    ns5:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/b2347c45-4fbf-4561-a9b4-ceaec3a4b641> a ns3:Individual ;
+    ns3:fn "Schlapbach Luregn" ;
+    ns3:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/b38990d3-0821-4032-91c8-f9a0e717aae2> a ns5:Individual ;
-    ns5:hasEmail "Olivier.Michielin@hug.ch" .
+<https://biomedit.ch/rdf/sphn-resource/b38990d3-0821-4032-91c8-f9a0e717aae2> a ns3:Individual ;
+    ns3:hasEmail "Olivier.Michielin@hug.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/b5a11325-448f-4a7e-8779-f18d94543a5e> a ns5:Individual ;
-    ns5:fn "Philipp Latzin" ;
-    ns5:hasEmail "philipp.latzin@insel.ch" .
+<https://biomedit.ch/rdf/sphn-resource/b5a11325-448f-4a7e-8779-f18d94543a5e> a ns3:Individual ;
+    ns3:fn "Philipp Latzin" ;
+    ns3:hasEmail "philipp.latzin@insel.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/bf7c782c-6365-48da-ae83-76a9362971b9> a ns5:Individual ;
-    ns5:fn "FabiÃ«n Belle" ;
-    ns5:hasEmail "fabien.belle@unibe.ch" .
+<https://biomedit.ch/rdf/sphn-resource/bf7c782c-6365-48da-ae83-76a9362971b9> a ns3:Individual ;
+    ns3:fn "FabiÃ«n Belle" ;
+    ns3:hasEmail "fabien.belle@unibe.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/c0b62b62-af11-45f6-a926-6d5f253339a1> a ns5:Individual ;
-    ns5:fn "Prof. Luregn Schlapbach" ;
-    ns5:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/c0b62b62-af11-45f6-a926-6d5f253339a1> a ns3:Individual ;
+    ns3:fn "Prof. Luregn Schlapbach" ;
+    ns3:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/c19809ef-149e-4481-aad2-c259930785e8> a ns5:Individual ;
-    ns5:fn "Prof. Luregn Schlapbach" ;
-    ns5:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/c19809ef-149e-4481-aad2-c259930785e8> a ns3:Individual ;
+    ns3:fn "Prof. Luregn Schlapbach" ;
+    ns3:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/c81a8e69-a995-45b4-9ed3-e56c129d0c37> a ns5:Individual ;
-    ns5:hasEmail "Olivier.Michielin@hug.ch" .
+<https://biomedit.ch/rdf/sphn-resource/c81a8e69-a995-45b4-9ed3-e56c129d0c37> a ns3:Individual ;
+    ns3:hasEmail "Olivier.Michielin@hug.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/d1a6b469-3e56-4217-b54d-80904feed731> a ns5:Individual ;
-    ns5:hasEmail "Olivier.Michielin@hug.ch" .
+<https://biomedit.ch/rdf/sphn-resource/d1a6b469-3e56-4217-b54d-80904feed731> a ns3:Individual ;
+    ns3:hasEmail "Olivier.Michielin@hug.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/d51933aa-ebe3-4159-8f09-82bca1b684b4> a ns5:Individual ;
-    ns5:fn "FabiÃ«n Belle" ;
-    ns5:hasEmail "fabien.belle@unibe.ch" .
+<https://biomedit.ch/rdf/sphn-resource/d51933aa-ebe3-4159-8f09-82bca1b684b4> a ns3:Individual ;
+    ns3:fn "FabiÃ«n Belle" ;
+    ns3:hasEmail "fabien.belle@unibe.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/dfa51272-9e97-4d83-9cdf-fa9bd225cf89> a ns5:Individual ;
-    ns5:fn "Prof. Luregn Schlapbach" ;
-    ns5:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/dfa51272-9e97-4d83-9cdf-fa9bd225cf89> a ns3:Individual ;
+    ns3:fn "Prof. Luregn Schlapbach" ;
+    ns3:hasEmail "luregn.schlapbach@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/e50389b7-2807-4625-9f78-08e12e2158aa> a ns5:Individual ;
-    ns5:fn "Prof. Adrian Egli" ;
-    ns5:hasEmail "aegli@imm.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/e50389b7-2807-4625-9f78-08e12e2158aa> a ns3:Individual ;
+    ns3:fn "Prof. Adrian Egli" ;
+    ns3:hasEmail "aegli@imm.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/fa5e639f-746f-407b-aa30-c7aac664f042> a ns5:Individual ;
-    ns5:fn "Marie MÃ©an" ;
-    ns5:hasEmail "Marie.Mean@chuv.ch" .
+<https://biomedit.ch/rdf/sphn-resource/fa5e639f-746f-407b-aa30-c7aac664f042> a ns3:Individual ;
+    ns3:fn "Marie MÃ©an" ;
+    ns3:hasEmail "Marie.Mean@chuv.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-06f43cd2-38e8-467a-b885-5865d641eed5> a ns5:Individual ;
-    ns5:fn "Centre Hospitalier Universitaire Vaudois (CHUV)" ;
-    ns5:hasEmail "Horus@chuv.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-06f43cd2-38e8-467a-b885-5865d641eed5> a ns3:Individual ;
+    ns3:fn "Centre Hospitalier Universitaire Vaudois (CHUV)" ;
+    ns3:hasEmail "Horus@chuv.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-14802582-de2f-4ac7-a7c8-83ea23bc8987> a ns5:Individual ;
-    ns5:fn "Jan Bonhoeffer" ;
-    ns5:hasEmail "jan.bonhoeffer@ukbb.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-14802582-de2f-4ac7-a7c8-83ea23bc8987> a ns3:Individual ;
+    ns3:fn "Jan Bonhoeffer" ;
+    ns3:hasEmail "jan.bonhoeffer@ukbb.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-1754b32d-cc9a-4cfa-b8a5-1413b3a88e19> a ns5:Individual ;
-    ns5:fn "Paolo Paioni" ;
-    ns5:hasEmail "paolo.paioni@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-1754b32d-cc9a-4cfa-b8a5-1413b3a88e19> a ns3:Individual ;
+    ns3:fn "Paolo Paioni" ;
+    ns3:hasEmail "paolo.paioni@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-245ce653-be73-4d11-ad7d-456064e75b83> a ns5:Individual ;
-    ns5:fn "Swiss Personalized Health Network (SPHN)" ;
-    ns5:hasEmail "dcc@sib.swiss" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-245ce653-be73-4d11-ad7d-456064e75b83> a ns3:Individual ;
+    ns3:fn "Swiss Personalized Health Network (SPHN)" ;
+    ns3:hasEmail "dcc@sib.swiss" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-2e1d01c3-12ae-42f0-999c-da313e544aee> a ns5:Individual ;
-    ns5:fn "University Hospital Zurich, Data Governance Board" ;
-    ns5:hasEmail "data-governance@usz.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-2e1d01c3-12ae-42f0-999c-da313e544aee> a ns3:Individual ;
+    ns3:fn "University Hospital Zurich, Data Governance Board" ;
+    ns3:hasEmail "data-governance@usz.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-2ff6b272-66ee-4de6-9c6e-139672528ea2> a ns5:Individual ;
-    ns5:fn "Sabine Blum" ;
-    ns5:hasEmail "sabine.blum@chuv.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-2ff6b272-66ee-4de6-9c6e-139672528ea2> a ns3:Individual ;
+    ns3:fn "Sabine Blum" ;
+    ns3:hasEmail "sabine.blum@chuv.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-35253b92-4389-4292-b196-97e0a5f2bfc4> a ns5:Individual ;
-    ns5:fn "Claudia Kuehni" ;
-    ns5:hasEmail "claudia.kuehni@unibe.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-35253b92-4389-4292-b196-97e0a5f2bfc4> a ns3:Individual ;
+    ns3:fn "Claudia Kuehni" ;
+    ns3:hasEmail "claudia.kuehni@unibe.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-3838b6aa-c19b-4436-8986-56f55a7ccaf0> a ns5:Individual ;
-    ns5:fn "Swiss Personalized Health Network (SPHN)" ;
-    ns5:hasEmail "dcc@sib.swiss" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-3838b6aa-c19b-4436-8986-56f55a7ccaf0> a ns3:Individual ;
+    ns3:fn "Swiss Personalized Health Network (SPHN)" ;
+    ns3:hasEmail "dcc@sib.swiss" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-4336aa4a-f371-46fd-a2db-249d8bd4f9b4> a ns5:Individual ;
-    ns5:fn "Paolo Paioni" ;
-    ns5:hasEmail "paolo.paioni@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-4336aa4a-f371-46fd-a2db-249d8bd4f9b4> a ns3:Individual ;
+    ns3:fn "Paolo Paioni" ;
+    ns3:hasEmail "paolo.paioni@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-448a05f5-de8c-43ce-b5c8-c6ba7a40d6c9> a ns5:Individual ;
-    ns5:fn "Jan Bonhoeffer" ;
-    ns5:hasEmail "jan.bonhoeffer@ukbb.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-448a05f5-de8c-43ce-b5c8-c6ba7a40d6c9> a ns3:Individual ;
+    ns3:fn "Jan Bonhoeffer" ;
+    ns3:hasEmail "jan.bonhoeffer@ukbb.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-47ca9166-b4f7-4bc7-8b6b-285973542358> a ns5:Individual ;
-    ns5:fn "Kinderspital Zurich (KISPI), Margarete von Wantoch" ;
-    ns5:hasEmail "margarete.vonwantoch@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-47ca9166-b4f7-4bc7-8b6b-285973542358> a ns3:Individual ;
+    ns3:fn "Kinderspital Zurich (KISPI), Margarete von Wantoch" ;
+    ns3:hasEmail "margarete.vonwantoch@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-4e8e67c3-7193-4d93-b56b-4bfeed652869> a ns5:Individual ;
-    ns5:fn "Swiss Personalized Health Network (SPHN)" ;
-    ns5:hasEmail "dcc@sib.swiss" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-4e8e67c3-7193-4d93-b56b-4bfeed652869> a ns3:Individual ;
+    ns3:fn "Swiss Personalized Health Network (SPHN)" ;
+    ns3:hasEmail "dcc@sib.swiss" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-5a79215c-8306-4c34-adb3-73271839f4f6> a ns5:Individual ;
-    ns5:fn "Dr. Morgan Sangeux" ;
-    ns5:hasEmail "Morgan.Sangeux@ukbb.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-5a79215c-8306-4c34-adb3-73271839f4f6> a ns3:Individual ;
+    ns3:fn "Dr. Morgan Sangeux" ;
+    ns3:hasEmail "Morgan.Sangeux@ukbb.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-5d8d4fd7-f222-4c5b-89f5-1bb39428a245> a ns5:Individual ;
-    ns5:fn "Michael Koller" ;
-    ns5:hasEmail "michael.koller@usb.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-5d8d4fd7-f222-4c5b-89f5-1bb39428a245> a ns3:Individual ;
+    ns3:fn "Michael Koller" ;
+    ns3:hasEmail "michael.koller@usb.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-67e53674-2923-4656-acd7-cbc12df46db9> a ns5:Individual ;
-    ns5:fn "Michael Koller" ;
-    ns5:hasEmail "michael.koller@usb.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-67e53674-2923-4656-acd7-cbc12df46db9> a ns3:Individual ;
+    ns3:fn "Michael Koller" ;
+    ns3:hasEmail "michael.koller@usb.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-6e26ff70-91c4-48b1-87f4-7bd3bf37c57b> a ns5:Individual ;
-    ns5:fn "Eric Giannoni" ;
-    ns5:hasEmail "eric.giannoni@chuv.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-6e26ff70-91c4-48b1-87f4-7bd3bf37c57b> a ns3:Individual ;
+    ns3:fn "Eric Giannoni" ;
+    ns3:hasEmail "eric.giannoni@chuv.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-81c04df3-4f59-4fd9-a4be-0daedfe512af> a ns5:Individual ;
-    ns5:fn "Paolo Paioni" ;
-    ns5:hasEmail "paolo.paioni@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-81c04df3-4f59-4fd9-a4be-0daedfe512af> a ns3:Individual ;
+    ns3:fn "Paolo Paioni" ;
+    ns3:hasEmail "paolo.paioni@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-86a6f9e4-5dd2-43ba-8e04-7020c5ab94aa> a ns5:Individual ;
-    ns5:fn "Paolo Paioni" ;
-    ns5:hasEmail "paolo.paioni@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-86a6f9e4-5dd2-43ba-8e04-7020c5ab94aa> a ns3:Individual ;
+    ns3:fn "Paolo Paioni" ;
+    ns3:hasEmail "paolo.paioni@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-8ee81e65-5e01-4e9c-8ef2-1099bcf9bf3f> a ns5:Individual ;
-    ns5:fn "Paolo Paioni" ;
-    ns5:hasEmail "paolo.paioni@kispi.uzh.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-8ee81e65-5e01-4e9c-8ef2-1099bcf9bf3f> a ns3:Individual ;
+    ns3:fn "Paolo Paioni" ;
+    ns3:hasEmail "paolo.paioni@kispi.uzh.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-9d1b2670-4edb-45b3-9945-a4c78f165117> a ns5:Individual ;
-    ns5:fn "Hopitaux Universitaires Geneve (HUG)" ;
-    ns5:hasEmail "dm.secretariat@hug.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-9d1b2670-4edb-45b3-9945-a4c78f165117> a ns3:Individual ;
+    ns3:fn "Hopitaux Universitaires Geneve (HUG)" ;
+    ns3:hasEmail "dm.secretariat@hug.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-9e566ee5-ad7d-4c73-8c1d-14850e0049af> a ns5:Individual ;
-    ns5:fn "Claudia Kuehni" ;
-    ns5:hasEmail "claudia.kuehni@unibe.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-9e566ee5-ad7d-4c73-8c1d-14850e0049af> a ns3:Individual ;
+    ns3:fn "Claudia Kuehni" ;
+    ns3:hasEmail "claudia.kuehni@unibe.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-a07a466e-927c-4d3a-9ef3-fcbf8702975a> a ns5:Individual ;
-    ns5:fn "Sabine Blum" ;
-    ns5:hasEmail "sabine.blum@chuv.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-a07a466e-927c-4d3a-9ef3-fcbf8702975a> a ns3:Individual ;
+    ns3:fn "Sabine Blum" ;
+    ns3:hasEmail "sabine.blum@chuv.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-b5fcb3da-ffbb-40e5-b87d-17d62241ffd3> a ns5:Individual ;
-    ns5:fn "DLF" ;
-    ns5:hasEmail "SPHN.insel@insel.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-b5fcb3da-ffbb-40e5-b87d-17d62241ffd3> a ns3:Individual ;
+    ns3:fn "DLF" ;
+    ns3:hasEmail "SPHN.insel@insel.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-be08871e-47f4-421a-bfe4-9ad2c425c9a3> a ns5:Individual ;
-    ns5:fn "Jan Bonhoeffer" ;
-    ns5:hasEmail "jan.bonhoeffer@ukbb.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-be08871e-47f4-421a-bfe4-9ad2c425c9a3> a ns3:Individual ;
+    ns3:fn "Jan Bonhoeffer" ;
+    ns3:hasEmail "jan.bonhoeffer@ukbb.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-cb0e220e-daa7-42c6-83cd-7b42978c8304> a ns5:Individual ;
-    ns5:fn "Michael Koller" ;
-    ns5:hasEmail "michael.koller@usb.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-cb0e220e-daa7-42c6-83cd-7b42978c8304> a ns3:Individual ;
+    ns3:fn "Michael Koller" ;
+    ns3:hasEmail "michael.koller@usb.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-d060e9c0-0129-4520-a126-fc8ffe42f9aa> a ns5:Individual ;
-    ns5:fn "Eric Giannoni" ;
-    ns5:hasEmail "eric.giannoni@chuv.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-d060e9c0-0129-4520-a126-fc8ffe42f9aa> a ns3:Individual ;
+    ns3:fn "Eric Giannoni" ;
+    ns3:hasEmail "eric.giannoni@chuv.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-d2ab68d2-7308-4d1c-ade8-87a82ccf01c5> a ns5:Individual ;
-    ns5:fn "Claudia Kuehni" ;
-    ns5:hasEmail "claudia.kuehni@unibe.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-d2ab68d2-7308-4d1c-ade8-87a82ccf01c5> a ns3:Individual ;
+    ns3:fn "Claudia Kuehni" ;
+    ns3:hasEmail "claudia.kuehni@unibe.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-d991afd5-4158-42e9-bdf4-d3b76e527594> a ns5:Individual ;
-    ns5:fn "Olga Endrich" ;
-    ns5:hasEmail "Olga.Endrich@insel.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-d991afd5-4158-42e9-bdf4-d3b76e527594> a ns3:Individual ;
+    ns3:fn "Olga Endrich" ;
+    ns3:hasEmail "Olga.Endrich@insel.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-f0519930-ba4e-4742-9845-523625a2c25a> a ns5:Individual ;
-    ns5:fn "Dr. Morgan Sangeux" ;
-    ns5:hasEmail "Morgan.Sangeux@ukbb.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-f0519930-ba4e-4742-9845-523625a2c25a> a ns3:Individual ;
+    ns3:fn "Dr. Morgan Sangeux" ;
+    ns3:hasEmail "Morgan.Sangeux@ukbb.ch" .
 
-<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-ffd0de72-2aed-4d61-b068-a06dc813340e> a ns5:Individual ;
-    ns5:fn "Olga Endrich" ;
-    ns5:hasEmail "Olga.Endrich@insel.ch" .
+<https://biomedit.ch/rdf/sphn-resource/sphn-metacat-ffd0de72-2aed-4d61-b068-a06dc813340e> a ns3:Individual ;
+    ns3:fn "Olga Endrich" ;
+    ns3:hasEmail "Olga.Endrich@insel.ch" .
 
 <https://biomedit.ch/rdf/sphn-schema/evigait/2024/1> rdfs:label "EVIGAIT RDF Schema 2024.1" .
 
@@ -26779,23 +26779,23 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         "ICD-10",
         "OPS Germany",
         "RxNorm" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:homepage "https://www.insel.ch" ;
             foaf:mbox "Forschungssupport.DLF@insel.ch" ;
             foaf:name "Inselspital - Universitatsspital Bern" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 113 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 726167 ;
-    ns3:numberOfUniqueIndividuals 726167 ;
+    ns5:maxTypicalAge 113 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 726167 ;
+    ns5:numberOfUniqueIndividuals 726167 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2024/2>,
@@ -26847,20 +26847,20 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
+    ns5:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://ucum.org>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "claudia.kuehni@unibe.ch" ;
             foaf:name "SPAC consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DFRC>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DFRC>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 18 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 2018 ;
-    ns3:numberOfUniqueIndividuals 2018 ;
+    ns5:maxTypicalAge 18 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 2018 ;
+    ns5:numberOfUniqueIndividuals 2018 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604> ;
     dcterms:description "This dataset contains clinical data collected at baseline and during follow-up visits for SPAC participants enrolled through Insel Gruppe AG, University of Bern Children's Hospital, University Children's Hospital Zurich - Eleonore Foundation and Luzerner Kantonspital . The data was manually extracted from the hospital electronic health record and entered into the study database. In addition to clinical information, the dataset includes selected baseline characteristics and variables related to self-reported emergency department visits and hospitalizations due to respiratory issues, which was reported in questionnaires answered by the participants." ;
@@ -26911,24 +26911,24 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws from Vaud and Zurich" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://ucum.org>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148>,
         "GTIN" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:homepage "https://www.chuv.ch" ;
             foaf:mbox "eric.giannoni@chuv.ch" ;
             foaf:name "Centre hospitalier universitaire vaudois" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/PEHD> ;
-    ns3:maxTypicalAge 1 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 15361 ;
-    ns3:numberOfUniqueIndividuals 15361 ;
+    ns5:maxTypicalAge 1 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 15361 ;
+    ns5:numberOfUniqueIndividuals 15361 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/adonis/2024/1> ;
@@ -27015,7 +27015,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <http://www.sequenceontology.org>,
+    ns5:hasCodingSystem <http://www.sequenceontology.org>,
         <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
@@ -27024,17 +27024,17 @@
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148>,
         <https://www.genenames.org> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:homepage "https://www.chuv.ch" ;
             foaf:mbox "Sabine.Blum@chuv.ch" ;
             foaf:name "Centre hospitalier universitaire vaudois" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HGEG>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 90 ;
-    ns3:minTypicalAge 18 ;
-    ns3:numberOfRecords 205473 ;
-    ns3:numberOfUniqueIndividuals 205473 ;
+    ns5:maxTypicalAge 90 ;
+    ns5:minTypicalAge 18 ;
+    ns5:numberOfRecords 205473 ;
+    ns5:numberOfUniqueIndividuals 205473 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2023/2> ;
@@ -27104,7 +27104,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://nanda.org/publications-resources/publications/nanda-international-nursing-diagnoses>,
@@ -27113,15 +27113,15 @@
         <https://www.bfs.admin.ch/news/de/2024-0148>,
         <https://www.gs1.org/standards/id-keys/gtin>,
         <https://www.uid.admin.ch> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "data-governance@usz.ch" ;
             foaf:name "University Hospital Zurich, Data Governance Board" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 107 ;
-    ns3:minTypicalAge 1 ;
-    ns3:numberOfRecords 120863 ;
-    ns3:numberOfUniqueIndividuals 120863 ;
+    ns5:maxTypicalAge 107 ;
+    ns5:minTypicalAge 1 ;
+    ns5:numberOfRecords 120863 ;
+    ns5:numberOfUniqueIndividuals 120863 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2025/1> ;
@@ -27173,13 +27173,13 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "Olivier.Michielin@hug.ch" ;
             foaf:name "The SPO Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
-    ns3:minTypicalAge 18 ;
-    ns3:numberOfRecords 120 ;
-    ns3:numberOfUniqueIndividuals 120 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
+    ns5:minTypicalAge 18 ;
+    ns5:numberOfRecords 120 ;
+    ns5:numberOfUniqueIndividuals 120 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/spo/2025/1> ;
@@ -27249,13 +27249,13 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "Olivier.Michielin@hug.ch" ;
             foaf:name "The SPO Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
-    ns3:minTypicalAge 18 ;
-    ns3:numberOfRecords 130 ;
-    ns3:numberOfUniqueIndividuals 130 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
+    ns5:minTypicalAge 18 ;
+    ns5:numberOfRecords 130 ;
+    ns5:numberOfUniqueIndividuals 130 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/spo/2025/1> ;
@@ -27321,15 +27321,15 @@
 <http://fdp.dcc.sib.swiss/dataset/2e942742-c431-5b91-abfc-eb21143a3f88> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Paediatric clinical hospital dataset" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "jan.bonhoeffer@ukbb.ch" ;
             foaf:name "PREPP consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 19 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 22783 ;
-    ns3:numberOfUniqueIndividuals 22783 ;
+    ns5:maxTypicalAge 19 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 22783 ;
+    ns5:numberOfUniqueIndividuals 22783 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2024/2> ;
@@ -27389,15 +27389,15 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "luregn.schlapbach@kispi.uzh.ch" ;
             foaf:name "SPH Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HGEG>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HGEG>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
-    ns3:maxTypicalAge 16 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 200 ;
-    ns3:numberOfUniqueIndividuals 200 ;
+    ns5:maxTypicalAge 16 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 200 ;
+    ns5:numberOfUniqueIndividuals 200 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604> ;
     dcterms:description "The dataset comprises the quality check (QC) metadata of the whole genome sequencing (WGS) and bulk RNA sequencing (RNA-seq) from samples collected during the retrospective phase (Phase 2) of the project. These samples were biobanked by the SwissPedHealth Lighthouse Project, and the Lighthouse team prepared the purified materials. Subsequently, the samples were sent to the Health 2030 Genome Center (H2030GC) for processing." ;
@@ -27442,7 +27442,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://ncithesaurus.nci.nih.gov>,
@@ -27453,16 +27453,16 @@
         <https://www.bfarm.de/EN/Code-systems/Classifications/ICD/ICD-O-3/_node.html>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "luregn.schlapbach@kispi.uzh.ch" ;
             foaf:name "SPH Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DFIH>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DFIH>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 20 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 761339 ;
-    ns3:numberOfUniqueIndividuals 761339 ;
+    ns5:maxTypicalAge 20 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 761339 ;
+    ns5:numberOfUniqueIndividuals 761339 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sph/2025/1>,
@@ -27544,14 +27544,14 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "luregn.schlapbach@kispi.uzh.ch" ;
             foaf:name "SPH Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HGEG> ;
-    ns3:maxTypicalAge 20 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 54 ;
-    ns3:numberOfUniqueIndividuals 54 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HGEG> ;
+    ns5:maxTypicalAge 20 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 54 ;
+    ns5:numberOfUniqueIndividuals 54 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604> ;
     dcterms:description "Phase 3: quality check (QC) metadata of the whole genome sequencing (WGS) and bulk RNA sequencing (RNA-seq)" ;
@@ -27606,7 +27606,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://ucum.org>,
@@ -27614,12 +27614,12 @@
         <https://www.bfs.admin.ch/news/de/2024-0148>,
         <https://www.gs1.org/standards/id-keys/gtin>,
         <https://www.uid.admin.ch> ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 115 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 145366 ;
-    ns3:numberOfUniqueIndividuals 145366 ;
+    ns5:maxTypicalAge 115 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 145366 ;
+    ns5:numberOfUniqueIndividuals 145366 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2025/1> ;
@@ -27672,15 +27672,15 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://obofoundry.org/ontology/genepio.html>,
+    ns5:hasCodingSystem <https://obofoundry.org/ontology/genepio.html>,
         <https://obofoundry.org/ontology/hp.html>,
         <https://obofoundry.org/ontology/obi.html> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "luregn.schlapbach@kispi.uzh.ch" ;
             foaf:name "SPH Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
-    ns3:numberOfRecords 98 ;
-    ns3:numberOfUniqueIndividuals 98 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
+    ns5:numberOfRecords 98 ;
+    ns5:numberOfUniqueIndividuals 98 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sph/2024/1> ;
@@ -27730,7 +27730,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://sciences.orphadata.com/ordo>,
@@ -27740,15 +27740,15 @@
         <https://www.bfs.admin.ch/news/de/2024-0148>,
         <https://www.gs1.org/standards/id-keys/gtin>,
         <https://www.uid.admin.ch> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "margarete.vonwantoch@kispi.uzh.ch" ;
             foaf:name "Kinderspital Zurich (KISPI), Margarete von Wantoch" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 20 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 106075 ;
-    ns3:numberOfUniqueIndividuals 106075 ;
+    ns5:maxTypicalAge 20 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 106075 ;
+    ns5:numberOfUniqueIndividuals 106075 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2025/1> ;
@@ -27800,7 +27800,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://nanda.org/publications-resources/publications/nanda-international-nursing-diagnoses>,
@@ -27810,14 +27810,14 @@
         <https://www.bfs.admin.ch/news/de/2024-0148>,
         <https://www.gs1.org/standards/id-keys/gtin>,
         <https://www.uid.admin.ch> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:name "Refer to the Data Access Body for each individual hospital" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 115 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 817856 ;
-    ns3:numberOfUniqueIndividuals 817856 ;
+    ns5:maxTypicalAge 115 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 817856 ;
+    ns5:numberOfUniqueIndividuals 817856 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2025/1> ;
@@ -27890,7 +27890,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://nanda.org/publications-resources/publications/nanda-international-nursing-diagnoses>,
@@ -27900,15 +27900,15 @@
         <https://www.bfs.admin.ch/news/de/2024-0148>,
         <https://www.gs1.org/standards/id-keys/gtin>,
         <https://www.uid.admin.ch> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "dm.secretariat@hug.ch" ;
             foaf:name "Hopitaux Universitaires Geneve (HUG)" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 109 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 113194 ;
-    ns3:numberOfUniqueIndividuals 113194 ;
+    ns5:maxTypicalAge 109 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 113194 ;
+    ns5:numberOfUniqueIndividuals 113194 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2025/1> ;
@@ -27960,13 +27960,13 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "Olivier.Michielin@hug.ch" ;
             foaf:name "The SPO consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
-    ns3:minTypicalAge 18 ;
-    ns3:numberOfRecords 108 ;
-    ns3:numberOfUniqueIndividuals 108 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
+    ns5:minTypicalAge 18 ;
+    ns5:numberOfRecords 108 ;
+    ns5:numberOfUniqueIndividuals 108 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/spo/2025/1> ;
@@ -28036,7 +28036,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <http://www.sequenceontology.org>,
+    ns5:hasCodingSystem <http://www.sequenceontology.org>,
         <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://hgvs-nomenclature.org>,
@@ -28053,14 +28053,14 @@
         <https://www.genenames.org>,
         <https://www.gs1.org/standards/id-keys/gtin>,
         <https://www.uid.admin.ch> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "Olivier.Michielin@hug.ch" ;
             foaf:name "The SPO Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DFMR>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DFMR>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
-    ns3:minTypicalAge 18 ;
-    ns3:numberOfRecords 1432 ;
-    ns3:numberOfUniqueIndividuals 1432 ;
+    ns5:minTypicalAge 18 ;
+    ns5:numberOfRecords 1432 ;
+    ns5:numberOfUniqueIndividuals 1432 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/spo/2025/1> ;
@@ -28136,16 +28136,16 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
+    ns5:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://ucum.org> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "aegli@imm.uzh.ch" ;
             foaf:name "IICU Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/PEHD> ;
-    ns3:minTypicalAge 18 ;
-    ns3:numberOfRecords 41539 ;
-    ns3:numberOfUniqueIndividuals 41539 ;
+    ns5:minTypicalAge 18 ;
+    ns5:numberOfRecords 41539 ;
+    ns5:numberOfUniqueIndividuals 41539 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2025/1> ;
@@ -28207,7 +28207,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://edamontology.org>,
         <https://ncithesaurus.nci.nih.gov>,
@@ -28215,14 +28215,14 @@
         <https://ucum.org>,
         <https://www.uid.admin.ch>,
         <https://www.uniprot.org> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "Olivier.Michielin@hug.ch" ;
             foaf:name "The SPO Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
-    ns3:minTypicalAge 18 ;
-    ns3:numberOfRecords 126 ;
-    ns3:numberOfUniqueIndividuals 126 ;
+    ns5:minTypicalAge 18 ;
+    ns5:numberOfRecords 126 ;
+    ns5:numberOfUniqueIndividuals 126 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/spo/2025/1> ;
@@ -28295,20 +28295,20 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
+    ns5:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://ucum.org>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "claudia.kuehni@unibe.ch" ;
             foaf:name "SPAC consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DFRC>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DFRC>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 18 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 13250 ;
-    ns3:numberOfUniqueIndividuals 13250 ;
+    ns5:maxTypicalAge 18 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 13250 ;
+    ns5:numberOfUniqueIndividuals 13250 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sph/2024/1>,
@@ -28377,23 +28377,23 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
+    ns5:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://ucum.org>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148>,
         <https://www.gs1.org/standards/id-keys/gtin>,
         <https://www.uid.admin.ch> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:homepage "https://www.chuv.ch" ;
             foaf:mbox "Horus@chuv.ch" ;
             foaf:name "Centre hospitalier universitaire vaudois" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 109 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 102116 ;
-    ns3:numberOfUniqueIndividuals 102116 ;
+    ns5:maxTypicalAge 109 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 102116 ;
+    ns5:numberOfUniqueIndividuals 102116 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2025/1> ;
@@ -28445,7 +28445,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://sciences.orphadata.com/ordo>,
@@ -28454,15 +28454,15 @@
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148>,
         <https://www.uid.admin.ch> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "SPHN.insel@insel.ch" ;
             foaf:name "DLF" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 106 ;
-    ns3:minTypicalAge 1 ;
-    ns3:numberOfRecords 230242 ;
-    ns3:numberOfUniqueIndividuals 230242 ;
+    ns5:maxTypicalAge 106 ;
+    ns5:minTypicalAge 1 ;
+    ns5:numberOfRecords 230242 ;
+    ns5:numberOfUniqueIndividuals 230242 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2025/1> ;
@@ -28514,14 +28514,14 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "luregn.schlapbach@kispi.uzh.ch" ;
             foaf:name "SPH Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HGEG> ;
-    ns3:maxTypicalAge 16 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 200 ;
-    ns3:numberOfUniqueIndividuals 200 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HGEG> ;
+    ns5:maxTypicalAge 16 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 200 ;
+    ns5:numberOfUniqueIndividuals 200 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604> ;
     dcterms:description "The dataset comprises the whole genome sequencing (WGS) and bulk RNA sequencing (RNA-seq) from samples collected during the retrospective phase (Phase 2) of the project. These samples were biobanked by the SwissPedHealth Lighthouse Project, and the Lighthouse team prepared the purified materials. Subsequently, the samples were sent to the Health 2030 Genome Center (H2030GC) for processing." ;
@@ -28566,15 +28566,15 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "EVIGAITCP project partners, UKBB as responsible organization. Contact point: mor-gan.Sangeux@ukbb.c" ;
             foaf:name "" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DFRM>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DFRM>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
-    ns3:maxTypicalAge 80 ;
-    ns3:minTypicalAge 6 ;
-    ns3:numberOfRecords 3607 ;
-    ns3:numberOfUniqueIndividuals 3607 ;
+    ns5:maxTypicalAge 80 ;
+    ns5:minTypicalAge 6 ;
+    ns5:numberOfRecords 3607 ;
+    ns5:numberOfUniqueIndividuals 3607 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604> ;
     dcterms:description "The dataset contains clinical gait analysis data for two populations, cerebral palsy and toe walking patients, that were collected at two different centers, the clinical gait analysis services at UKBB and HUG. The dataset contains physical examination data (anthropometric measurements, range of motion measurements, muscle strength assessments and spasticity assessments), surgical procedure data, and instrumented gait analysis data (spatio-temporal parameters, gait scores, kinematics, kinetics and electromyography data), as well as SOP for both centers." ;
@@ -28625,15 +28625,15 @@
 <http://fdp.dcc.sib.swiss/dataset/cb0fd1cf-4d04-519f-b4a8-7f476d73f301> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Paediatric primary care dataset" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "jan.bonhoeffer@ukbb.ch" ;
             foaf:name "PREPP consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 19 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 45726 ;
-    ns3:numberOfUniqueIndividuals 45726 ;
+    ns5:maxTypicalAge 19 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 45726 ;
+    ns5:numberOfUniqueIndividuals 45726 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2024/2> ;
@@ -28690,7 +28690,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://obofoundry.org/ontology/genepio.html>,
@@ -28702,14 +28702,14 @@
         <https://www.bfarm.de/EN/Code-systems/Classifications/ICD/ICD-O-3/_node.html>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "luregn.schlapbach@kispi.uzh.ch" ;
             foaf:name "SPH Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
-    ns3:maxTypicalAge 20 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 73 ;
-    ns3:numberOfUniqueIndividuals 73 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
+    ns5:maxTypicalAge 20 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 73 ;
+    ns5:numberOfUniqueIndividuals 73 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sph/2025/1> ;
@@ -28790,7 +28790,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://sciences.orphadata.com/ordo>,
@@ -28798,15 +28798,15 @@
         <https://www.bfarm.de/EN/Code-systems/Classifications/ICD/ICD-O-3/_node.html>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "claudia.kuehni@unibe.ch" ;
             foaf:name "SwissPedCancer Executive Board" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 20 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 1962 ;
-    ns3:numberOfUniqueIndividuals 1962 ;
+    ns5:maxTypicalAge 20 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 1962 ;
+    ns5:numberOfUniqueIndividuals 1962 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604> ;
     dcterms:description "Swiss Childhood Cancer Registry (ChCR) records in a standardise way national information about cancer in patients and survivors. More information: www.childhoodcancerregistry.ch and www-cancer-registration.ch" ;
@@ -28856,20 +28856,20 @@
         dcat:Resource ;
     rdfs:label "Routinely collected data and Patient Reported Outcomes/Patient Reported Experiences Measures version 2024.1/HUG_CHUV_USZ_USB" ;
     ns4:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de> ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/currency>,
         <https://ucum.org>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:name "LUCID Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
-    ns3:maxTypicalAge 105 ;
-    ns3:minTypicalAge 18 ;
-    ns3:numberOfRecords 135046 ;
-    ns3:numberOfUniqueIndividuals 135046 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
+    ns5:maxTypicalAge 105 ;
+    ns5:minTypicalAge 18 ;
+    ns5:numberOfRecords 135046 ;
+    ns5:numberOfUniqueIndividuals 135046 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/lucid/2024/1> ;
@@ -28934,19 +28934,19 @@
         dcat:Resource ;
     rdfs:label "Routinely collected data and Patient Reported Outcomes/Patient Reported Experiences Measures version 2025.1/Insel" ;
     ns4:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de> ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://ucum.org>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:name "LUCID Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
-    ns3:maxTypicalAge 105 ;
-    ns3:minTypicalAge 18 ;
-    ns3:numberOfRecords 43905 ;
-    ns3:numberOfUniqueIndividuals 43905 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
+    ns5:maxTypicalAge 105 ;
+    ns5:minTypicalAge 18 ;
+    ns5:numberOfRecords 43905 ;
+    ns5:numberOfUniqueIndividuals 43905 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/lucid/2025/1> ;
@@ -29616,7 +29616,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://obofoundry.org/ontology/obi.html>,
@@ -29624,16 +29624,16 @@
         <https://ucum.org>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "claudia.kuehni@unibe.ch" ;
             foaf:name "SwissPedGrowth Executive Board" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DFIH>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DFIH>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 20 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 581577 ;
-    ns3:numberOfUniqueIndividuals 581577 ;
+    ns5:maxTypicalAge 20 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 581577 ;
+    ns5:numberOfUniqueIndividuals 581577 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2025/1> ;
@@ -29716,14 +29716,14 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "luregn.schlapbach@kispi.uzh.ch" ;
             foaf:name "SPH Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
-    ns3:maxTypicalAge 20 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 54 ;
-    ns3:numberOfUniqueIndividuals 54 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
+    ns5:maxTypicalAge 20 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 54 ;
+    ns5:numberOfUniqueIndividuals 54 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604> ;
     dcterms:description "Phase 3: Proteomics/Transcriptomics Data" ;
@@ -29780,7 +29780,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://obofoundry.org/ontology/obi.html>,
@@ -29791,15 +29791,15 @@
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148>,
         <https://www.ebi.ac.uk/efo> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "philipp.latzin@insel.ch" ;
             foaf:name "SwissPedLung Executive Board" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 20 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 7779 ;
-    ns3:numberOfUniqueIndividuals 7779 ;
+    ns5:maxTypicalAge 20 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 7779 ;
+    ns5:numberOfUniqueIndividuals 7779 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sph/2025/1>,
@@ -29863,22 +29863,22 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
+    ns5:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://ucum.org>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "paolo.paioni@kispi.uzh.ch" ;
             foaf:name "SwissPedDW Data Access and Re-Use Committee" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HGEG>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
-    ns3:maxTypicalAge 25 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 14 ;
-    ns3:numberOfUniqueIndividuals 14 ;
+    ns5:maxTypicalAge 25 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 14 ;
+    ns5:numberOfUniqueIndividuals 14 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2024/2> ;
@@ -29939,22 +29939,22 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
+    ns5:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://ucum.org/>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "paolo.paioni@kispi.uzh.ch" ;
             foaf:name "SwissPedDW Data Access and Re-Use Committee" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HGEG>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
-    ns3:maxTypicalAge 75 ;
-    ns3:minTypicalAge 18 ;
-    ns3:numberOfRecords 28 ;
-    ns3:numberOfUniqueIndividuals 28 ;
+    ns5:maxTypicalAge 75 ;
+    ns5:minTypicalAge 18 ;
+    ns5:numberOfRecords 28 ;
+    ns5:numberOfUniqueIndividuals 28 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2024/2> ;
@@ -30018,14 +30018,14 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "luregn.schlapbach@kispi.uzh.ch" ;
             foaf:name "SPH Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
-    ns3:maxTypicalAge 20 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 54 ;
-    ns3:numberOfUniqueIndividuals 54 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
+    ns5:maxTypicalAge 20 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 54 ;
+    ns5:numberOfUniqueIndividuals 54 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604> ;
     dcterms:description "Phase 3:  MetabolomicData" ;
@@ -30082,22 +30082,22 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
+    ns5:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://ucum.org>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "paolo.paioni@kispi.uzh.ch" ;
             foaf:name "SwissPedDW Data Access and Re-Use Committee" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HGEG>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
-    ns3:maxTypicalAge 18 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 1357 ;
-    ns3:numberOfUniqueIndividuals 1357 ;
+    ns5:maxTypicalAge 18 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 1357 ;
+    ns5:numberOfUniqueIndividuals 1357 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2024/2> ;
@@ -30171,14 +30171,14 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "luregn.schlapbach@kispi.uzh.ch" ;
             foaf:name "SPH Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
-    ns3:maxTypicalAge 16 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 200 ;
-    ns3:numberOfUniqueIndividuals 200 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
+    ns5:maxTypicalAge 16 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 200 ;
+    ns5:numberOfUniqueIndividuals 200 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604> ;
     dcterms:description "The dataset comprises the proteomics/transcriptomics data from samples collected during the retrospective phase (Phase 2) of the project. These samples were biobanked by the SwissPedHealth Lighthouse Project, and the Lighthouse team prepared the purified materials. Subsequently, the samples were sent to the Health 2030 Genome Center (H2030GC) for processing." ;
@@ -30224,22 +30224,22 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://ucum.org>,
         <https://www.bfarm.de/EN/Code-systems/Classifications/ICD/ICD-O-3/_node.html>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "JuliaAnna.Bielicki@ukbb.ch" ;
             foaf:name "SwissPedAntibio Executive Board" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 20 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 180383 ;
-    ns3:numberOfUniqueIndividuals 180383 ;
+    ns5:maxTypicalAge 20 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 180383 ;
+    ns5:numberOfUniqueIndividuals 180383 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2025/1> ;
@@ -30318,15 +30318,15 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://loinc.org> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hasCodingSystem <https://loinc.org> ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "sc.stcs@usz.ch" ;
             foaf:name "STCS Scientific Committee and Data Governance Board" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
-    ns3:maxTypicalAge 93 ;
-    ns3:minTypicalAge 19 ;
-    ns3:numberOfRecords 1276 ;
-    ns3:numberOfUniqueIndividuals 1276 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
+    ns5:maxTypicalAge 93 ;
+    ns5:minTypicalAge 19 ;
+    ns5:numberOfRecords 1276 ;
+    ns5:numberOfUniqueIndividuals 1276 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2024/2> ;
@@ -30379,15 +30379,15 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://loinc.org> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hasCodingSystem <https://loinc.org> ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "sc.stcs@usz.ch" ;
             foaf:name "STCS Scientific Committee and Data Governance Board" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
-    ns3:maxTypicalAge 95 ;
-    ns3:minTypicalAge 8 ;
-    ns3:numberOfRecords 1651 ;
-    ns3:numberOfUniqueIndividuals 1651 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD> ;
+    ns5:maxTypicalAge 95 ;
+    ns5:minTypicalAge 8 ;
+    ns5:numberOfRecords 1651 ;
+    ns5:numberOfUniqueIndividuals 1651 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2024/2> ;
@@ -30439,14 +30439,14 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "luregn.schlapbach@kispi.uzh.ch" ;
             foaf:name "SPH Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
-    ns3:maxTypicalAge 16 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 200 ;
-    ns3:numberOfUniqueIndividuals 200 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
+    ns5:maxTypicalAge 16 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 200 ;
+    ns5:numberOfUniqueIndividuals 200 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604> ;
     dcterms:description "The dataset comprises metabolomics data from samples collected during the retrospective phase (Phase 2) of the project. These samples were biobanked by the SwissPedHealth Lighthouse Project, and the Lighthouse team prepared the purified materials. Subsequently, the samples were sent to the Clinical Metabolomics Analysis Center (CMAC) for processing." ;
@@ -30492,7 +30492,7 @@
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://sciences.orphadata.com/ordo>,
@@ -30500,16 +30500,16 @@
         <https://www.bfarm.de/EN/Code-systems/Classifications/ICD/ICD-O-3/_node.html>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "claudia.kuehni@unibe.ch" ;
             foaf:name "SwissPedCancer Executive Board" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DFIH>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DFIH>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD> ;
-    ns3:maxTypicalAge 20 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 667882 ;
-    ns3:numberOfUniqueIndividuals 667882 ;
+    ns5:maxTypicalAge 20 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 667882 ;
+    ns5:numberOfUniqueIndividuals 667882 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sph/2025/1>,
@@ -30590,22 +30590,22 @@ Conform CRA / CRO: veto against cancer registration""" ;
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
+    ns5:hasCodingSystem <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://ucum.org>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "paolo.paioni@kispi.uzh.ch" ;
             foaf:name "SwissPedDW Data Access and Re-Use Committee" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HGEG>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HRAD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/OHMD> ;
-    ns3:maxTypicalAge 18 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 20 ;
-    ns3:numberOfUniqueIndividuals 20 ;
+    ns5:maxTypicalAge 18 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 20 ;
+    ns5:numberOfUniqueIndividuals 20 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2024/2> ;
@@ -30675,7 +30675,7 @@ Conform CRA / CRO: veto against cancer registration""" ;
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
+    ns5:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
         <https://obofoundry.org/ontology/chmo.html>,
@@ -30683,15 +30683,15 @@ Conform CRA / CRO: veto against cancer registration""" ;
         <https://ucum.org>,
         <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken.assetdetail.36016195.html>,
         <https://www.bfs.admin.ch/news/de/2024-0148> ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "aegli@imm.uzh.ch" ;
             foaf:name "IICU Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DPIH>,
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/DPIH>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/EHRD>,
         <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/PEHD> ;
-    ns3:minTypicalAge 18 ;
-    ns3:numberOfRecords 67442 ;
-    ns3:numberOfUniqueIndividuals 67442 ;
+    ns5:minTypicalAge 18 ;
+    ns5:numberOfRecords 67442 ;
+    ns5:numberOfUniqueIndividuals 67442 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
         <https://www.biomedit.ch/rdf/sphn-schema/sphn/2025/1> ;
@@ -31551,14 +31551,14 @@ Conform CRA / CRO: veto against cancer registration""" ;
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
-    ns3:hdab [ a foaf:Agent ;
+    ns5:hdab [ a foaf:Agent ;
             foaf:mbox "luregn.schlapbach@kispi.uzh.ch" ;
             foaf:name "SPH Consortium" ] ;
-    ns3:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HGEG> ;
-    ns3:maxTypicalAge 20 ;
-    ns3:minTypicalAge 0 ;
-    ns3:numberOfRecords 54 ;
-    ns3:numberOfUniqueIndividuals 54 ;
+    ns5:healthCategory <https://biomedit.ch/rdf/sphn-metacat/sphn/health-category/HGEG> ;
+    ns5:maxTypicalAge 20 ;
+    ns5:minTypicalAge 0 ;
+    ns5:numberOfRecords 54 ;
+    ns5:numberOfUniqueIndividuals 54 ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/2f08228e-1789-40f8-84cd-28e3288c3604> ;
     dcterms:description "Phase 3: whole genome sequencing (WGS) and bulk RNA sequencing data" ;
