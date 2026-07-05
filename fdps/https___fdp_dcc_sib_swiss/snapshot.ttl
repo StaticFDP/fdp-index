@@ -8,8 +8,8 @@
 @prefix ns3: <http://healthdataportal.eu/ns/health#> .
 @prefix ns4: <http://www.w3.org/2006/vcard/ns#> .
 @prefix ns5: <http://data.europa.eu/r5r/> .
-@prefix ns6: <http://www.geneontology.org/formats/oboInOwl#> .
-@prefix ns7: <http://www.re3data.org/schema/3-0#> .
+@prefix ns6: <http://www.re3data.org/schema/3-0#> .
+@prefix ns7: <http://www.geneontology.org/formats/oboInOwl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
@@ -28801,7 +28801,7 @@
     dcterms:title "Routinely collected data and Patient Reported Outcomes/Patient Reported Experiences Measures version 2024.1/HUG_CHUV_USZ_USB" ;
     ns1:SIO_000628 <http://fdp.dcc.sib.swiss/dataset/efea4499-6d32-586d-ad4d-2b93cb5ddb0c/metrics/445c0a70d1e214e545b261559e2842f4>,
         <http://fdp.dcc.sib.swiss/dataset/efea4499-6d32-586d-ad4d-2b93cb5ddb0c/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
-    ns6:xref "Reuse conditions are regulated in the LUCID Consortium Agreement and reuse is approved by the Consortium Executive Board. Third parties can apply for reuse" ;
+    ns7:xref "Reuse conditions are regulated in the LUCID Consortium Agreement and reuse is approved by the Consortium Executive Board. Third parties can apply for reuse" ;
     dcat:contactPoint <https://biomedit.ch/rdf/sphn-resource/fa5e639f-746f-407b-aa30-c7aac664f042> ;
     dcat:distribution <http://fdp.dcc.sib.swiss/distribution/4e298ff5-281d-592d-af49-26814894a424> ;
     dcat:keyword "LUCID-2024.1-Lighthouse-version-2024.1-HUG-CHUV-USZ-USB" ;
@@ -28878,7 +28878,7 @@
     dcterms:title "Routinely collected data and Patient Reported Outcomes/Patient Reported Experiences Measures version 2025.1/Insel" ;
     ns1:SIO_000628 <http://fdp.dcc.sib.swiss/dataset/f9e25b86-5aef-5b95-9a90-e324e10ee0b2/metrics/445c0a70d1e214e545b261559e2842f4>,
         <http://fdp.dcc.sib.swiss/dataset/f9e25b86-5aef-5b95-9a90-e324e10ee0b2/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
-    ns6:xref "Reuse conditions are regulated in the LUCID Consortium Agreement and reuse is approved by the Consortium Executive Board. Third parties can apply for reuse" ;
+    ns7:xref "Reuse conditions are regulated in the LUCID Consortium Agreement and reuse is approved by the Consortium Executive Board. Third parties can apply for reuse" ;
     dcat:contactPoint <https://biomedit.ch/rdf/sphn-resource/8f8dd47e-5dc3-45ef-a44d-cb7298bc1fe6> ;
     dcat:distribution <http://fdp.dcc.sib.swiss/distribution/1843d55c-224b-5592-b934-e2e495fafc78> ;
     dcat:keyword "LUCID-2025.1-Lighthouse-version-2025.1-INSEL" ;
@@ -32839,7 +32839,7 @@ Conform CRA / CRO: veto against cancer registration""" ;
     dcterms:title "SPHN FAIR Data Point" ;
     ns1:SIO_000628 <http://fdp.dcc.sib.swiss/metrics/445c0a70d1e214e545b261559e2842f4>,
         <http://fdp.dcc.sib.swiss/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
-    ns7:repositoryIdentifier <http://fdp.dcc.sib.swiss#identifier> ;
+    ns6:repositoryIdentifier <http://fdp.dcc.sib.swiss#identifier> ;
     dcat:contactPoint <http://fdp.dcc.sib.swiss#contact> ;
     dcat:endpointURL <http://fdp.dcc.sib.swiss>,
         <http://fdp.dcc.sib.swiss/store/fdp/sparql> ;
