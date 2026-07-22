@@ -1,55 +1,27 @@
 [
   {
-    "@id": "https://fdp.wikipathways.org/contact/",
-    "http://www.w3.org/2006/vcard/ns#url": [
-      {
-        "@id": "https://github.com/wikipathways/fdp/issues"
-      }
-    ]
-  },
-  {
-    "@id": "https://fdp.wikipathways.org/dataset/20260610/rdf/index.ttl#wp",
+    "@id": "http://fdp.wikipathways.org/catalogs/index.ttl",
     "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
+      "http://www.w3.org/ns/ldp#DirectContainer"
     ],
     "http://purl.org/dc/terms/title": [
       {
-        "@value": "WikiPathways 20260610, WPRDF file"
+        "@value": "WikiPathways Catalogs"
       }
     ],
-    "http://www.w3.org/ns/dcat#downloadURL": [
+    "http://www.w3.org/ns/ldp#contains": [
       {
-        "@id": "http://data.wikipathways.org/20260610/rdf/wikipathways-20260610-rdf-wp.zip"
+        "@id": "https://fdp.wikipathways.org/catalog/index.ttl"
       }
     ],
-    "http://www.w3.org/ns/dcat#mediaType": [
+    "http://www.w3.org/ns/ldp#hasMemberRelation": [
       {
-        "@value": "application/zip"
-      }
-    ]
-  },
-  {
-    "@id": "https://fdp.wikipathways.org/dataset/20260610/index.ttl",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Dataset"
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "WikiPathways 20260610"
+        "@id": "https://w3id.org/fdp/fdpo#metadataCatalog"
       }
     ],
-    "http://www.w3.org/ns/dcat#distribution": [
+    "http://www.w3.org/ns/ldp#membershipResource": [
       {
-        "@id": "https://fdp.wikipathways.org/dataset/20260610/gmt/index.ttl"
-      },
-      {
-        "@id": "https://fdp.wikipathways.org/dataset/20260610/gpml/index.ttl"
-      },
-      {
-        "@id": "https://fdp.wikipathways.org/dataset/20260610/rdf/index.ttl#wp"
-      },
-      {
-        "@id": "https://fdp.wikipathways.org/dataset/20260610/rdf/index.ttl#gpml"
+        "@id": "https://fdp.wikipathways.org/"
       }
     ]
   },
@@ -60,10 +32,10 @@
     ],
     "http://purl.org/dc/terms/conformsTo": [
       {
-        "@id": "_:n65f0d1132bac43039cadd023a2004905b2"
+        "@id": "_:n6821f78b63db49c19199b0ebd9210da3b2"
       },
       {
-        "@id": "_:n496323f1eb874bee8547c7742db292c6b1"
+        "@id": "_:n75d5ef79b06548eca9a35e6ad99bc325b1"
       }
     ],
     "http://purl.org/dc/terms/isPartOf": [
@@ -117,7 +89,7 @@
     ]
   },
   {
-    "@id": "_:n65f0d1132bac43039cadd023a2004905b2",
+    "@id": "_:n6821f78b63db49c19199b0ebd9210da3b2",
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "Catalog Profile"
@@ -125,7 +97,7 @@
     ]
   },
   {
-    "@id": "_:n496323f1eb874bee8547c7742db292c6b1",
+    "@id": "_:n75d5ef79b06548eca9a35e6ad99bc325b1",
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "Catalog Profile"
@@ -133,23 +105,63 @@
     ]
   },
   {
-    "@id": "https://fdp.wikipathways.org/#accessRights",
+    "@id": "https://fdp.wikipathways.org/dataset/20260610/gmt/index.ttl",
     "@type": [
-      "http://purl.org/dc/terms/RightsStatement"
+      "http://www.w3.org/ns/dcat#Distribution"
     ],
-    "http://purl.org/dc/terms/description": [
+    "http://purl.org/dc/terms/title": [
       {
-        "@value": "This resource has no access restriction"
+        "@value": "WikiPathways 20260610, GMT files"
+      }
+    ]
+  },
+  {
+    "@id": "https://fdp.wikipathways.org/dataset/20260610/rdf/index.ttl#gpml",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "WikiPathways 20260610, GPMLRDF file"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#downloadURL": [
+      {
+        "@id": "http://data.wikipathways.org/20260610/rdf/wikipathways-20260610-rdf-gpml.zip"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#mediaType": [
+      {
+        "@value": "application/zip"
+      }
+    ]
+  },
+  {
+    "@id": "https://fdp.wikipathways.org/dataset/20260610/gpml/index.ttl",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "WikiPathways 20260610, GPML files"
+      }
+    ]
+  },
+  {
+    "@id": "https://fdp.wikipathways.org/contact/",
+    "http://www.w3.org/2006/vcard/ns#url": [
+      {
+        "@id": "https://github.com/wikipathways/fdp/issues"
       }
     ]
   },
   {
     "@id": "https://fdp.wikipathways.org/index.ttl",
     "@type": [
-      "http://www.w3.org/ns/dcat#DataService",
-      "https://w3id.org/fdp/fdp-o#FairDataPoint",
       "https://w3id.org/fdp/fdp-o#MetadataService",
-      "http://www.w3.org/ns/dcat#Resource"
+      "https://w3id.org/fdp/fdp-o#FairDataPoint",
+      "http://www.w3.org/ns/dcat#Resource",
+      "http://www.w3.org/ns/dcat#DataService"
     ],
     "http://purl.org/dc/terms/accessRights": [
       {
@@ -158,7 +170,7 @@
     ],
     "http://purl.org/dc/terms/conformsTo": [
       {
-        "@id": "_:n65f0d1132bac43039cadd023a2004905b1"
+        "@id": "_:n6821f78b63db49c19199b0ebd9210da3b1"
       },
       {
         "@id": "https://www.purl.org/fairtools/fdp/schema/0.1/fdpMetadata"
@@ -182,13 +194,13 @@
     ],
     "http://purl.org/dc/terms/keyword": [
       {
-        "@value": "biomarker"
-      },
-      {
         "@value": "protein"
       },
       {
         "@value": "biological pathway"
+      },
+      {
+        "@value": "metabolite"
       },
       {
         "@value": "rare disease"
@@ -197,7 +209,7 @@
         "@value": "gene"
       },
       {
-        "@value": "metabolite"
+        "@value": "biomarker"
       }
     ],
     "http://purl.org/dc/terms/language": [
@@ -280,7 +292,7 @@
     ]
   },
   {
-    "@id": "_:n65f0d1132bac43039cadd023a2004905b1",
+    "@id": "_:n6821f78b63db49c19199b0ebd9210da3b1",
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "FAIR Data Point Profile"
@@ -288,50 +300,23 @@
     ]
   },
   {
-    "@id": "https://fdp.wikipathways.org/dataset/20260610/gpml/index.ttl",
+    "@id": "https://fdp.wikipathways.org/dataset/20260610/rdf/index.ttl#wp",
     "@type": [
       "http://www.w3.org/ns/dcat#Distribution"
     ],
     "http://purl.org/dc/terms/title": [
       {
-        "@value": "WikiPathways 20260610, GPML files"
-      }
-    ]
-  },
-  {
-    "@id": "http://fdp.wikipathways.org/catalogs/index.ttl",
-    "@type": [
-      "http://www.w3.org/ns/ldp#DirectContainer"
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "WikiPathways Catalogs"
+        "@value": "WikiPathways 20260610, WPRDF file"
       }
     ],
-    "http://www.w3.org/ns/ldp#contains": [
+    "http://www.w3.org/ns/dcat#downloadURL": [
       {
-        "@id": "https://fdp.wikipathways.org/catalog/index.ttl"
+        "@id": "http://data.wikipathways.org/20260610/rdf/wikipathways-20260610-rdf-wp.zip"
       }
     ],
-    "http://www.w3.org/ns/ldp#hasMemberRelation": [
+    "http://www.w3.org/ns/dcat#mediaType": [
       {
-        "@id": "https://w3id.org/fdp/fdpo#metadataCatalog"
-      }
-    ],
-    "http://www.w3.org/ns/ldp#membershipResource": [
-      {
-        "@id": "https://fdp.wikipathways.org/"
-      }
-    ]
-  },
-  {
-    "@id": "https://fdp.wikipathways.org/dataset/20260610/gmt/index.ttl",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "WikiPathways 20260610, GMT files"
+        "@value": "application/zip"
       }
     ]
   },
@@ -357,23 +342,38 @@
     ]
   },
   {
-    "@id": "https://fdp.wikipathways.org/dataset/20260610/rdf/index.ttl#gpml",
+    "@id": "https://fdp.wikipathways.org/#accessRights",
     "@type": [
-      "http://www.w3.org/ns/dcat#Distribution"
+      "http://purl.org/dc/terms/RightsStatement"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "This resource has no access restriction"
+      }
+    ]
+  },
+  {
+    "@id": "https://fdp.wikipathways.org/dataset/20260610/index.ttl",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
     ],
     "http://purl.org/dc/terms/title": [
       {
-        "@value": "WikiPathways 20260610, GPMLRDF file"
+        "@value": "WikiPathways 20260610"
       }
     ],
-    "http://www.w3.org/ns/dcat#downloadURL": [
+    "http://www.w3.org/ns/dcat#distribution": [
       {
-        "@id": "http://data.wikipathways.org/20260610/rdf/wikipathways-20260610-rdf-gpml.zip"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#mediaType": [
+        "@id": "https://fdp.wikipathways.org/dataset/20260610/rdf/index.ttl#gpml"
+      },
       {
-        "@value": "application/zip"
+        "@id": "https://fdp.wikipathways.org/dataset/20260610/gpml/index.ttl"
+      },
+      {
+        "@id": "https://fdp.wikipathways.org/dataset/20260610/gmt/index.ttl"
+      },
+      {
+        "@id": "https://fdp.wikipathways.org/dataset/20260610/rdf/index.ttl#wp"
       }
     ]
   }
