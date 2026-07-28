@@ -1,82 +1,5 @@
 [
   {
-    "@id": "https://staticfdp.github.io/fdp-index/",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Daily-crawled index of FAIR Data Points hosted via StaticFDP / fdpCloud."
-      }
-    ],
-    "http://purl.org/dc/terms/license": [
-      {
-        "@id": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-07-27T06:18:56.412322+00:00"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://github.com/StaticFDP"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "en",
-        "@value": "StaticFDP Index"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#dataset": [
-      {
-        "@id": "https://fdp.duchennedatafoundation.org"
-      },
-      {
-        "@id": "https://fdp.wikipathways.org/index.ttl"
-      },
-      {
-        "@id": "https://fdp.dcc.sib.swiss"
-      },
-      {
-        "@id": "http://fairdatapointorphanet.info:7070"
-      }
-    ]
-  },
-  {
-    "@id": "https://fdp.duchennedatafoundation.org",
-    "@type": [
-      "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
-      "http://www.w3.org/ns/dcat#DataService"
-    ],
-    "http://purl.org/dc/terms/modified": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-07-27T06:18:56.412322+00:00"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "en",
-        "@value": "Duchenne FAIR Data Point"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#endpointURL": [
-      {
-        "@id": "https://fdp.duchennedatafoundation.org"
-      }
-    ],
-    "https://schema.org/numberOfItems": [
-      {
-        "@value": 1
-      }
-    ]
-  },
-  {
     "@id": "https://fdp.dcc.sib.swiss",
     "@type": [
       "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
@@ -91,7 +14,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-07-27T06:18:56.412322+00:00"
+        "@value": "2026-07-28T05:40:07.496553+00:00"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -120,7 +43,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-07-27T06:18:56.412322+00:00"
+        "@value": "2026-07-28T05:40:07.496553+00:00"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -141,6 +64,35 @@
     ]
   },
   {
+    "@id": "https://fdp.duchennedatafoundation.org",
+    "@type": [
+      "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
+      "http://www.w3.org/ns/dcat#DataService"
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-07-28T05:40:07.496553+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "Duchenne FAIR Data Point"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#endpointURL": [
+      {
+        "@id": "https://fdp.duchennedatafoundation.org"
+      }
+    ],
+    "https://schema.org/numberOfItems": [
+      {
+        "@value": 1
+      }
+    ]
+  },
+  {
     "@id": "https://fdp.wikipathways.org/index.ttl",
     "@type": [
       "https://w3id.org/fdp/fdp-o#FAIRDataPoint",
@@ -155,7 +107,7 @@
     "http://purl.org/dc/terms/modified": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2026-07-27T06:18:56.412322+00:00"
+        "@value": "2026-07-28T05:40:07.496553+00:00"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -172,6 +124,54 @@
     "https://schema.org/numberOfItems": [
       {
         "@value": 2
+      }
+    ]
+  },
+  {
+    "@id": "https://staticfdp.github.io/fdp-index/",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Daily-crawled index of FAIR Data Points hosted via StaticFDP / fdpCloud."
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-07-28T05:40:07.496553+00:00"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://github.com/StaticFDP"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "StaticFDP Index"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#dataset": [
+      {
+        "@id": "https://fdp.duchennedatafoundation.org"
+      },
+      {
+        "@id": "https://fdp.wikipathways.org/index.ttl"
+      },
+      {
+        "@id": "https://fdp.dcc.sib.swiss"
+      },
+      {
+        "@id": "http://fairdatapointorphanet.info:7070"
       }
     ]
   }
