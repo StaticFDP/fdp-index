@@ -7,9 +7,9 @@
 @prefix ns2: <http://semanticscience.org/resource/> .
 @prefix ns3: <http://healthdataportal.eu/ns/health#> .
 @prefix ns4: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns5: <http://data.europa.eu/r5r/> .
-@prefix ns6: <http://www.re3data.org/schema/3-0#> .
-@prefix ns7: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix ns5: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix ns6: <http://data.europa.eu/r5r/> .
+@prefix ns7: <http://www.re3data.org/schema/3-0#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
@@ -26061,7 +26061,7 @@
 <http://fdp.dcc.sib.swiss/catalog/08d6b731-ddcc-520a-b869-83fedc93d4e6> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "SwissPedHealth Nested project 4: Surveillance of antimicrobial use in Swiss paediatric inpatient care (SwissPedAntibio)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -26172,7 +26172,7 @@
 <http://fdp.dcc.sib.swiss/catalog/4c54f9a6-1351-524d-aa62-633a4d4ab9c9> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "SwissPedHealth Nested Project 1: Anthropometric routine data in Switzerland (SwissPedGrowth)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -26289,7 +26289,7 @@
 <http://fdp.dcc.sib.swiss/catalog/4dd50db2-8d41-5a7f-9011-b5ebfff7da24> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "Accelerating detection of neonatal sepsis: a machine learning-based approach (ADONIS)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws from Vaud and Zurich" ;
@@ -26372,7 +26372,7 @@
 <http://fdp.dcc.sib.swiss/catalog/5d5de05f-b96c-5ef7-9ec3-1e53f3d4046c> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "Infection Radar (INFRA)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -26438,7 +26438,7 @@
 <http://fdp.dcc.sib.swiss/catalog/6ab8f4e9-e391-5d74-903a-e07f2ecc0dd8> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "Therapy-related myeloid neoplasms after cytotoxic treatment" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -26508,7 +26508,7 @@
 <http://fdp.dcc.sib.swiss/catalog/9070fe40-3c99-5efe-8f50-9ef01b081273> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "SwissPedHealth Nested Project 3: Standardization and quality control of lung function tests (SwissPedLung)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -26615,7 +26615,7 @@
 <http://fdp.dcc.sib.swiss/catalog/b865fa92-78f0-59a6-bd27-e03ba9b2517d> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "Getting high level of evidence for surgical treatments from routine clinical data. A real-world testing of the SPHN infrastructure (EVIGAITCP)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -26688,7 +26688,7 @@
 <http://fdp.dcc.sib.swiss/dataset/00ec6a5c-2c38-5ce7-985c-fe9145d3d1b6> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Infection Radar Data Set" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -26756,7 +26756,7 @@
 <http://fdp.dcc.sib.swiss/dataset/12876005-f8d2-5edc-9216-f2ba2a3a5118> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Manually collected clinical data and questionnaire data for SPAC participants" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -26820,7 +26820,7 @@
 <http://fdp.dcc.sib.swiss/dataset/15166475-4c6a-52ec-aadb-e8c57049827b> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "ADONIS Cohort: High-Resolution Clinical Data for Neonatal Sepsis Detection" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws from Vaud and Zurich" ;
@@ -26924,7 +26924,7 @@
 <http://fdp.dcc.sib.swiss/dataset/1c5032d6-9e5b-5004-8fa9-29cc02f9d9da> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Therapy-related myeloid neoplasms after cytotoxic treatment" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -27013,7 +27013,7 @@
 <http://fdp.dcc.sib.swiss/dataset/266d71ae-bc3d-584d-97cb-5bae0f8d4c05> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "USZ Clinical Routine Dataset (2025.1)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -27082,7 +27082,7 @@
 <http://fdp.dcc.sib.swiss/dataset/26ae000b-d3b4-536d-a05e-c38b3a82bcf1> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Swiss Personalized Oncology National Data Stream - Prospective, melanoma, colorectal cancer, non-small cell lung cancer, breast cancer - imaging mass cytometry assays" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -27158,7 +27158,7 @@
 <http://fdp.dcc.sib.swiss/dataset/2c511052-840c-5b18-ab68-a0dfba8c50e8> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Swiss Personalized Oncology National Data Stream - Prospective, melanoma, colorectal cancer, non-small cell lung cancer, breast cancer - antitmuor drug screening assays" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -27298,7 +27298,7 @@
 <http://fdp.dcc.sib.swiss/dataset/334589be-975f-5e16-b930-0534f463a1d2> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Phase 2 - Sequencing Metadata" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -27351,7 +27351,7 @@
 <http://fdp.dcc.sib.swiss/dataset/36c4522a-d8cf-5168-b08e-25d7e47d47ab> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "SwissPedHealth Clinical Dataset" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -27453,7 +27453,7 @@
 <http://fdp.dcc.sib.swiss/dataset/423da3b3-4340-5671-8e15-398786fec332> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Phase 3 - Sequencing Metadata" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -27515,7 +27515,7 @@
 <http://fdp.dcc.sib.swiss/dataset/463c2952-a375-500e-b4de-2882c199c367> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "USB Clinical Routine Dataset (2025.1)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -27581,7 +27581,7 @@
 <http://fdp.dcc.sib.swiss/dataset/4eeee87e-64df-5262-9b4d-3d22651ba6ad> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Phase 2 - Phenotypic Observation Remethylation Disorder" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -27639,7 +27639,7 @@
 <http://fdp.dcc.sib.swiss/dataset/57943c5d-58d9-5702-9014-2a2f78f3fde7> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "KISPI Clinical Routine Dataset (2025.1)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -27709,7 +27709,7 @@
 <http://fdp.dcc.sib.swiss/dataset/58cd4839-5821-5dee-a859-72e4462c3659> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "SPHN Federated Clinical Routine Dataset (2025.1)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -27799,7 +27799,7 @@
 <http://fdp.dcc.sib.swiss/dataset/5a448b0d-e3ff-50c7-9892-2bd8e6b03b72> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "HUG Clinical Routine Dataset (2025.1)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -27869,7 +27869,7 @@
 <http://fdp.dcc.sib.swiss/dataset/6de87679-b9e1-5fd3-b8ee-885696f44930> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Swiss Personalized Oncology National Data Stream - Prospective, melanoma, colorectal cancer, non-small cell lung cancer, breast cancer - pathology image digitizations" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -27945,7 +27945,7 @@
 <http://fdp.dcc.sib.swiss/dataset/7dafbf3c-39f4-51b3-9e18-bfdca1ac7363> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Swiss Personalized Oncology National Data Stream - Retrospective, melanoma, colorectal cancer, non-small cell lung cancer, breast cancer" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -28045,7 +28045,7 @@
 <http://fdp.dcc.sib.swiss/dataset/86fccb90-7382-5da8-b752-c1a3447f2f05> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Subset of time-series data for personalized, data-driven prediction and assessment of Infection related outcomes in Swiss ICUs" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -28116,7 +28116,7 @@
 <http://fdp.dcc.sib.swiss/dataset/8eb0ac30-70bf-57ff-b019-731a1692eae7> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Swiss Personalized Oncology National Data Stream - Prospective, melanoma, colorectal cancer, non-small cell lung cancer, breast cancer - metadata" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -28204,7 +28204,7 @@
 <http://fdp.dcc.sib.swiss/dataset/9c82fba9-504b-50e5-958c-331aa7e6eae5> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Clinical routine data for SPAC participants and for non-participants" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -28286,7 +28286,7 @@
 <http://fdp.dcc.sib.swiss/dataset/9d4d06a3-0e8d-57b0-8a24-89007666a401> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "CHUV Clinical Routine Dataset SPHN (2025.1)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -28354,7 +28354,7 @@
 <http://fdp.dcc.sib.swiss/dataset/a66a3a51-1c35-5015-871e-b3e411473f39> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "INSEL Clinical Routine Dataset (2025.1)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -28423,7 +28423,7 @@
 <http://fdp.dcc.sib.swiss/dataset/ac796270-0ee7-553f-9645-3946dcb6c257> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Phase 2 - Sequencing Data" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -28475,7 +28475,7 @@
 <http://fdp.dcc.sib.swiss/dataset/c72aa453-d1bf-5b11-a133-3cee3e833de1> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Clinical gait analysis data for cerebral palsy and toe walking patients" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -28599,7 +28599,7 @@
 <http://fdp.dcc.sib.swiss/dataset/d4ad525a-8fb0-5d01-87db-4495e3e5adfb> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Phase 3 - MOMIC RDF Dataset" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -28699,7 +28699,7 @@
 <http://fdp.dcc.sib.swiss/dataset/eaee30a5-fcce-5f1d-a5c2-74c2f3684e84> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "SwissPedCancer - Cancer Registry Dataset" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -28768,7 +28768,7 @@
 <http://fdp.dcc.sib.swiss/dataset/efea4499-6d32-586d-ad4d-2b93cb5ddb0c> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Routinely collected data and Patient Reported Outcomes/Patient Reported Experiences Measures version 2024.1/HUG_CHUV_USZ_USB" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de> ;
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de> ;
     ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
@@ -28801,7 +28801,7 @@
     dcterms:title "Routinely collected data and Patient Reported Outcomes/Patient Reported Experiences Measures version 2024.1/HUG_CHUV_USZ_USB" ;
     ns2:SIO_000628 <http://fdp.dcc.sib.swiss/dataset/efea4499-6d32-586d-ad4d-2b93cb5ddb0c/metrics/445c0a70d1e214e545b261559e2842f4>,
         <http://fdp.dcc.sib.swiss/dataset/efea4499-6d32-586d-ad4d-2b93cb5ddb0c/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
-    ns7:xref "Reuse conditions are regulated in the LUCID Consortium Agreement and reuse is approved by the Consortium Executive Board. Third parties can apply for reuse" ;
+    ns5:xref "Reuse conditions are regulated in the LUCID Consortium Agreement and reuse is approved by the Consortium Executive Board. Third parties can apply for reuse" ;
     dcat:contactPoint <https://biomedit.ch/rdf/sphn-resource/fa5e639f-746f-407b-aa30-c7aac664f042> ;
     dcat:distribution <http://fdp.dcc.sib.swiss/distribution/4e298ff5-281d-592d-af49-26814894a424> ;
     dcat:keyword "LUCID-2024.1-Lighthouse-version-2024.1-HUG-CHUV-USZ-USB" ;
@@ -28846,7 +28846,7 @@
 <http://fdp.dcc.sib.swiss/dataset/f9e25b86-5aef-5b95-9a90-e324e10ee0b2> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Routinely collected data and Patient Reported Outcomes/Patient Reported Experiences Measures version 2025.1/Insel" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de> ;
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de> ;
     ns3:hasCodingSystem <https://atcddd.fhi.no/atc_ddd_index>,
         <https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-CH/2025-06-07>,
         <https://loinc.org>,
@@ -28878,7 +28878,7 @@
     dcterms:title "Routinely collected data and Patient Reported Outcomes/Patient Reported Experiences Measures version 2025.1/Insel" ;
     ns2:SIO_000628 <http://fdp.dcc.sib.swiss/dataset/f9e25b86-5aef-5b95-9a90-e324e10ee0b2/metrics/445c0a70d1e214e545b261559e2842f4>,
         <http://fdp.dcc.sib.swiss/dataset/f9e25b86-5aef-5b95-9a90-e324e10ee0b2/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
-    ns7:xref "Reuse conditions are regulated in the LUCID Consortium Agreement and reuse is approved by the Consortium Executive Board. Third parties can apply for reuse" ;
+    ns5:xref "Reuse conditions are regulated in the LUCID Consortium Agreement and reuse is approved by the Consortium Executive Board. Third parties can apply for reuse" ;
     dcat:contactPoint <https://biomedit.ch/rdf/sphn-resource/8f8dd47e-5dc3-45ef-a44d-cb7298bc1fe6> ;
     dcat:distribution <http://fdp.dcc.sib.swiss/distribution/1843d55c-224b-5592-b934-e2e495fafc78> ;
     dcat:keyword "LUCID-2025.1-Lighthouse-version-2025.1-INSEL" ;
@@ -28915,7 +28915,7 @@
 <http://fdp.dcc.sib.swiss/catalog/1bf15715-9973-5288-9d79-74ca5ce4e095> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "PReparing PERsonalizEd PEdiatRic PRimaRy caRE (PREPP)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -29018,7 +29018,7 @@
 <http://fdp.dcc.sib.swiss/catalog/64136f6d-1e2b-557d-8c9d-5704e7c4c2e9> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "Personalized, data-driven prediction and assessment of Infection related outcomes in Swiss ICUs (IICU)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -29151,7 +29151,7 @@
 <http://fdp.dcc.sib.swiss/catalog/7e07ae22-580f-5bfb-8b71-151d525d6a4e> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "Low Value of Care in Hospitalized Patients - a National Data Stream on Quality of Care in Swiss university hospitals (LUCID)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de> ;
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de> ;
     dcterms:abstract "National Data Streams (NDS) are set to play an important role in making Swiss healthcare more effective, cost-efficient, data-driven, and evidence-based. Our project will focus on hospital inpatient quality of care and will attempt to find ways of improving healthcare processes in Swiss hospitals. As both the number of patients and the cost of acute care are expected to increase in the future, avoiding healthcare waste, while satisfying inpatients expectations, is key for the Swiss health system. Since value-based healthcare aims at preventing low-value healthcare processes while keeping costs under control through a patient-centered outcome orientation, and within an evidence-based and data-informed framework, our broad objective is to build an NDS permitting to monitor and study the quality of care in Swiss hospitals using existing hospital data and Patient Reported Outcomes (PROs). While the current project will focus on hospitalized patients in medicine who represent the largest part of hospitalizations, the project's infrastructure and processes are applicable for hospitalized patients from other specialties." ;
     dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
     dcterms:conformsTo <http://fdp.dcc.sib.swiss/profile/a0949e72-4466-4d53-8900-9436d1049a4b>,
@@ -29249,7 +29249,7 @@
 <http://fdp.dcc.sib.swiss/catalog/b11dbf20-e08e-5bf1-a1e5-ba64457e17c0> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "Cohort demonstrator: Full integration of a national cohort into the SPHN infrastructure" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2007/279/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2007/279/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
@@ -29322,7 +29322,7 @@
 <http://fdp.dcc.sib.swiss/catalog/da5b40b5-fc0b-5366-a522-103459001a83> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "Using routine health care data to facilitate clinical cohort studies (SPAC)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -29411,7 +29411,7 @@
 <http://fdp.dcc.sib.swiss/catalog/e6aba0ba-7f6a-5013-93bf-b8cf1f3631cc> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "SwissPedHealth Nested Project 2: Improving registration and data flows to and from the Swiss Childhood Cancer Registry  (SwissPedCancer)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -29526,7 +29526,7 @@
 <http://fdp.dcc.sib.swiss/dataset/03a029d6-d75d-507c-9074-9c9aae7f43ad> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "SwissPedHealth Nested Project 1: Anthropometric routine data in Switzerland (SwissPedGrowth)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -29626,7 +29626,7 @@
 <http://fdp.dcc.sib.swiss/dataset/1c964c69-4d4d-58df-846b-34a54e72c3fe> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Phase 3 - Proteomics Data" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -29690,7 +29690,7 @@
 <http://fdp.dcc.sib.swiss/dataset/1d5cc949-d1c3-5f41-a353-9b637870d7d5> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Nested Project 3: Standardization and quality control of lung function tests" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -29773,7 +29773,7 @@
 <http://fdp.dcc.sib.swiss/dataset/39e6a55c-a228-557d-acd1-b29561b40d80> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Drug Plasma Level Data and associated Clinical Data of Busulfan" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -29849,7 +29849,7 @@
 <http://fdp.dcc.sib.swiss/dataset/451c7432-3c21-5c21-b272-f012c3ff738e> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Drug Plasma Level Data and associated Clinical Data of Fludarabine" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -29928,7 +29928,7 @@
 <http://fdp.dcc.sib.swiss/dataset/644e122d-6950-5924-a0a2-d5413bc4a7ff> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Phase 3 - Metabolomics Data" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -29992,7 +29992,7 @@
 <http://fdp.dcc.sib.swiss/dataset/6ba57f67-6ba0-5b93-952c-8a73ed17212f> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Drug Plasma Level Data and associated Clinical Data of Gentamicin, Vancomycin, Voriconazole" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -30081,7 +30081,7 @@
 <http://fdp.dcc.sib.swiss/dataset/89cb5151-757a-5b05-b5f5-230f648443ac> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Phase 2 - Proteomics Data" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -30134,7 +30134,7 @@
 <http://fdp.dcc.sib.swiss/dataset/8ad4c2f4-c616-500e-a3cd-773bdac54ac1> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Nested project 4: Surveillance of antimicrobial use in Swiss paediatric inpatient care" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -30227,7 +30227,7 @@
 <http://fdp.dcc.sib.swiss/dataset/be1edcab-4e5e-59b7-8a34-f3bb0f551343> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Cohort Demonstrator USB dataset (2012-2024)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2007/279/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2007/279/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
@@ -30288,7 +30288,7 @@
 <http://fdp.dcc.sib.swiss/dataset/de597d5c-9946-517b-976e-1adebbbbe069> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Cohort Demonstrator CHUV dataset (2007-2025)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2007/279/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2007/279/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
@@ -30349,7 +30349,7 @@
 <http://fdp.dcc.sib.swiss/dataset/e461d8cb-c148-5a1a-8ec2-cf729ca240a5> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Phase 2 - Metabolomics Data" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -30402,7 +30402,7 @@
 <http://fdp.dcc.sib.swiss/dataset/eaffbff3-f44d-51bf-ac39-3af3127de516> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Nested Project 2: Improving registration and data flows to and from the Swiss Childhood Cancer Registry" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -30500,7 +30500,7 @@ Conform CRA / CRO: veto against cancer registration""" ;
 <http://fdp.dcc.sib.swiss/dataset/ec8049f2-79ac-5e1c-9ee3-28912f2a593f> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Genomics and Metabolomics Data of a Healthy Children Cohort" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -30585,7 +30585,7 @@ Conform CRA / CRO: veto against cancer registration""" ;
 <http://fdp.dcc.sib.swiss/dataset/f4ebfc7f-266c-52a8-9d60-b8218300bd25> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Dataset for personalized, data-driven prediction and assessment of Infection related outcomes in Swiss ICUs" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -31461,7 +31461,7 @@ Conform CRA / CRO: veto against cancer registration""" ;
 <http://fdp.dcc.sib.swiss/dataset/ffb7602c-699f-561a-8c57-f0956d8dfff8> a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Phase 3 - Sequencing Data" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -31527,7 +31527,7 @@ Conform CRA / CRO: veto against cancer registration""" ;
 <http://fdp.dcc.sib.swiss/catalog/0cb87ed8-5159-53cf-b68e-639a9f95a443> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "Optimising paediatric dosing regimens based on a clinical data warehouse (SwissPedDW)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -32133,7 +32133,7 @@ Conform CRA / CRO: veto against cancer registration""" ;
 <http://fdp.dcc.sib.swiss/catalog/88f8fde4-aff4-5c05-919c-2edba893bcd7> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "Swiss Personalized Oncology National Data Stream (SPO-NDS)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -32431,7 +32431,7 @@ Conform CRA / CRO: veto against cancer registration""" ;
 <http://fdp.dcc.sib.swiss/catalog/86fb83e6-27ae-55f4-9b57-6fdeb97b719b> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "Pediatric Personalized Research Network Switzerland - a Joint Pediatric National Data Stream (SwissPedHealth)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -32560,7 +32560,7 @@ Conform CRA / CRO: veto against cancer registration""" ;
 <http://fdp.dcc.sib.swiss/catalog/fc6e936d-ad4b-5b21-b8a4-8c7826bbec99> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "SPHN Federated Clinical Routine Data" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -32689,7 +32689,7 @@ Conform CRA / CRO: veto against cancer registration""" ;
 <http://fdp.dcc.sib.swiss/catalog/727823d9-ab9d-5440-8f0f-78d6d5cecdb0> a dcat:Catalog,
         dcat:Resource ;
     rdfs:label "SwissPedHealth: Development of a multi-omics work-flow to discover rare diseases in children with extreme phenotypes (MOMIC)" ;
-    ns5:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
+    ns6:applicableLegislation <https://www.fedlex.admin.ch/eli/cc/2013/617/de>,
         <https://www.fedlex.admin.ch/eli/cc/2013/642/de>,
         <https://www.fedlex.admin.ch/eli/cc/2022/491/de>,
         "Cantonal data protection laws" ;
@@ -32839,7 +32839,7 @@ Conform CRA / CRO: veto against cancer registration""" ;
     dcterms:title "SPHN FAIR Data Point" ;
     ns2:SIO_000628 <http://fdp.dcc.sib.swiss/metrics/445c0a70d1e214e545b261559e2842f4>,
         <http://fdp.dcc.sib.swiss/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
-    ns6:repositoryIdentifier <http://fdp.dcc.sib.swiss#identifier> ;
+    ns7:repositoryIdentifier <http://fdp.dcc.sib.swiss#identifier> ;
     dcat:contactPoint <http://fdp.dcc.sib.swiss#contact> ;
     dcat:endpointURL <http://fdp.dcc.sib.swiss>,
         <https://fdp.dcc.sib.swiss/store/fdp/sparql> ;
