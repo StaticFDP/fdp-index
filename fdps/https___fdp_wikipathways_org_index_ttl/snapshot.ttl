@@ -3,8 +3,8 @@
 @prefix fdp-o: <https://w3id.org/fdp/fdp-o#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ldp: <http://www.w3.org/ns/ldp#> .
-@prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns2: <https://w3id.org/ejp-rd/vocabulary#> .
+@prefix ns1: <https://w3id.org/ejp-rd/vocabulary#> .
+@prefix ns2: <http://www.w3.org/2006/vcard/ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -23,7 +23,7 @@
     dcterms:conformsTo [ rdfs:label "FAIR Data Point Profile" ],
         <https://www.purl.org/fairtools/fdp/schema/0.1/fdpMetadata> ;
     dcterms:description "This FAIR Data Point deployment is used to describe WikiPathways." ;
-    dcterms:hasVersion "20260610" ;
+    dcterms:hasVersion "20260810" ;
     dcterms:issued "2023-03-10T07:42:08+00:00"^^xsd:dateTime ;
     dcterms:keyword "biological pathway",
         "biomarker",
@@ -33,45 +33,45 @@
         "rare disease" ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    dcterms:modified "2026-06-13T09:33:17.593717+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-08-16T06:39:23.078536+00:00"^^xsd:dateTime ;
     dcterms:publisher <https://wikipathways.org/> ;
     dcterms:title "WikiPathways FAIR Data Point" ;
     dcat:contactPoint <https://fdp.wikipathways.org/contact/> ;
-    dcat:landingPage <https://data.wikipathways.org/20260610/> ;
+    dcat:landingPage <https://data.wikipathways.org/20260810/> ;
     dcat:theme <http://vocabularies.wikipathways.org/wp#Pathway> ;
     foaf:logo <https://upload.wikimedia.org/wikipedia/commons/8/83/Wplogo_with_text_500.png> ;
-    ns2:personalData "false" ;
-    ns2:vpConnection ns2:VPDiscoverable ;
+    ns1:personalData "false" ;
+    ns1:vpConnection ns1:VPDiscoverable ;
     fdp-o:metadataCatalog <https://fdp.wikipathways.org/catalog/index.ttl> ;
     fdp-o:metadataIssued "2023-03-10T07:42:08+00:00"^^xsd:dateTime ;
-    fdp-o:metadataModified "2026-06-13T09:33:17.593717+00:00"^^xsd:dateTime .
+    fdp-o:metadataModified "2026-08-16T06:39:23.078536+00:00"^^xsd:dateTime .
 
 <https://fdp.wikipathways.org/#accessRights> a dcterms:RightsStatement ;
     dcterms:description "This resource has no access restriction" .
 
-<https://fdp.wikipathways.org/contact/> ns1:url <https://github.com/wikipathways/fdp/issues> .
+<https://fdp.wikipathways.org/contact/> ns2:url <https://github.com/wikipathways/fdp/issues> .
 
-<https://fdp.wikipathways.org/dataset/20260610/gmt/index.ttl> a dcat:Distribution ;
-    dcterms:title "WikiPathways 20260610, GMT files" .
+<https://fdp.wikipathways.org/dataset/20260810/gmt/index.ttl> a dcat:Distribution ;
+    dcterms:title "WikiPathways 20260810, GMT files" .
 
-<https://fdp.wikipathways.org/dataset/20260610/gpml/index.ttl> a dcat:Distribution ;
-    dcterms:title "WikiPathways 20260610, GPML files" .
+<https://fdp.wikipathways.org/dataset/20260810/gpml/index.ttl> a dcat:Distribution ;
+    dcterms:title "WikiPathways 20260810, GPML files" .
 
-<https://fdp.wikipathways.org/dataset/20260610/index.ttl> a dcat:Dataset ;
-    dcterms:title "WikiPathways 20260610" ;
-    dcat:distribution <https://fdp.wikipathways.org/dataset/20260610/gmt/index.ttl>,
-        <https://fdp.wikipathways.org/dataset/20260610/gpml/index.ttl>,
-        <https://fdp.wikipathways.org/dataset/20260610/rdf/index.ttl#gpml>,
-        <https://fdp.wikipathways.org/dataset/20260610/rdf/index.ttl#wp> .
+<https://fdp.wikipathways.org/dataset/20260810/index.ttl> a dcat:Dataset ;
+    dcterms:title "WikiPathways 20260810" ;
+    dcat:distribution <https://fdp.wikipathways.org/dataset/20260810/gmt/index.ttl>,
+        <https://fdp.wikipathways.org/dataset/20260810/gpml/index.ttl>,
+        <https://fdp.wikipathways.org/dataset/20260810/rdf/index.ttl#gpml>,
+        <https://fdp.wikipathways.org/dataset/20260810/rdf/index.ttl#wp> .
 
-<https://fdp.wikipathways.org/dataset/20260610/rdf/index.ttl#gpml> a dcat:Distribution ;
-    dcterms:title "WikiPathways 20260610, GPMLRDF file" ;
-    dcat:downloadURL <http://data.wikipathways.org/20260610/rdf/wikipathways-20260610-rdf-gpml.zip> ;
+<https://fdp.wikipathways.org/dataset/20260810/rdf/index.ttl#gpml> a dcat:Distribution ;
+    dcterms:title "WikiPathways 20260810, GPMLRDF file" ;
+    dcat:downloadURL <http://data.wikipathways.org/20260810/rdf/wikipathways-20260810-rdf-gpml.zip> ;
     dcat:mediaType "application/zip" .
 
-<https://fdp.wikipathways.org/dataset/20260610/rdf/index.ttl#wp> a dcat:Distribution ;
-    dcterms:title "WikiPathways 20260610, WPRDF file" ;
-    dcat:downloadURL <http://data.wikipathways.org/20260610/rdf/wikipathways-20260610-rdf-wp.zip> ;
+<https://fdp.wikipathways.org/dataset/20260810/rdf/index.ttl#wp> a dcat:Distribution ;
+    dcterms:title "WikiPathways 20260810, WPRDF file" ;
+    dcat:downloadURL <http://data.wikipathways.org/20260810/rdf/wikipathways-20260810-rdf-wp.zip> ;
     dcat:mediaType "application/zip" .
 
 <https://wikipathways.org/> a foaf:Agent ;
@@ -85,10 +85,10 @@
         [ rdfs:label "Catalog Profile" ] ;
     dcterms:isPartOf <http://fdp.wikipathways.org/index.ttl> ;
     dcterms:issued "2023-03-10T07:42:08+00:00"^^xsd:dateTime ;
-    dcterms:modified "2026-06-10T13:06:00+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-08-10T13:06:00+00:00"^^xsd:dateTime ;
     dcterms:title "WikiPathways Catalog" ;
-    dcat:dataset <https://fdp.wikipathways.org/dataset/20260610/index.ttl> ;
+    dcat:dataset <https://fdp.wikipathways.org/dataset/20260810/index.ttl> ;
     foaf:homePage <https://data.wikipathways.org/> ;
     fdp-o:metadataIssued "2023-03-10T07:42:08+00:00"^^xsd:dateTime ;
-    fdp-o:metadataModified "2026-06-10T13:06:00+00:00"^^xsd:dateTime .
+    fdp-o:metadataModified "2026-08-10T13:06:00+00:00"^^xsd:dateTime .
 
