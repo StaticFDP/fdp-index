@@ -1,22 +1,22 @@
 {
-  "crawled_at": "2026-10-03T08:40:45.668295+00:00",
+  "crawled_at": "2026-10-04T08:55:39.212495+00:00",
   "total": 6,
-  "succeeded": 4,
-  "failed": 2,
+  "succeeded": 5,
+  "failed": 1,
   "fdps": [
     {
       "url": "https://fdp.duchennedatafoundation.org",
       "label": "Duchenne FAIR Data Point",
-      "status": "error",
+      "status": "ok",
       "stats": {
         "root": "https://fdp.duchennedatafoundation.org",
-        "resources": 0,
-        "catalogs": 0,
-        "datasets": 0,
-        "errors": 1,
+        "resources": 4,
+        "catalogs": 1,
+        "datasets": 2,
+        "errors": 0,
         "skipped": 0
       },
-      "elapsed_s": 0.18
+      "elapsed_s": 1.97
     },
     {
       "url": "https://fdp.wikipathways.org/index.ttl",
@@ -30,7 +30,7 @@
         "errors": 0,
         "skipped": 0
       },
-      "elapsed_s": 0.65
+      "elapsed_s": 1.01
     },
     {
       "url": "https://fdp.dcc.sib.swiss",
@@ -44,7 +44,7 @@
         "errors": 0,
         "skipped": 0
       },
-      "elapsed_s": 190.24
+      "elapsed_s": 185.92
     },
     {
       "url": "http://fairdatapointorphanet.info:7070",
@@ -58,7 +58,7 @@
         "errors": 1,
         "skipped": 1798
       },
-      "elapsed_s": 74.14
+      "elapsed_s": 72.67
     },
     {
       "url": "https://dpp.worldduchenne.org",
@@ -72,7 +72,7 @@
         "errors": 4,
         "skipped": 0
       },
-      "elapsed_s": 10.18
+      "elapsed_s": 9.98
     },
     {
       "url": "https://rajaramzfdp.fdpcloud.org/fdp-content/repository",
@@ -86,7 +86,7 @@
         "errors": 1,
         "skipped": 0
       },
-      "elapsed_s": 0.64
+      "elapsed_s": 0.73
     }
   ]
 }
