@@ -70,6 +70,16 @@ fdps:
     added:   "2026-04-16"
     contact: ""
 
+  - url:     https://koetai.github.io/biodiversity-fdp/fdp/biodiversity-index/catalog.ttl
+    label:   "Biodiversity FDP"
+    added:   "2026-10-08"
+    contact: "https://github.com/Koetai/biodiversity-fdp"
+    notes:   >
+      Static FDP built with StaticFDP/fdp-ecosystem-template; served as text/turtle by GitHub Pages.
+      The index lists its catalog documents with ldp:contains (and fdp:hasCatalog → rdfs:seeAlso);
+      canonical IRIs are https://raw.githubusercontent.com/Koetai/biodiversity-fdp/main/fdp/…,
+      the same files are served with text/turtle under https://koetai.github.io/biodiversity-fdp/fdp/….
+
   # ── Pending deployment on fdpCloud ────────────────────────────────────────
   # Uncomment each entry once the corresponding repo has been registered
   # with fdpCloud and the subdomain is live.
